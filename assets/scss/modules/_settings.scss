@@ -17,21 +17,30 @@ $slicer-breakpoints: 0 $screen-sm $screen-md $screen-lg;
 // Basic color names
 $black:	 			#111;
 $white: 			#fff;
-$brickblack: 		#251c13;
 
-$screenwhite: 		#f8fafd;
-$navy:	 			#222334;
 $grey: 				#aaa;
 
+// Play
 $red: 				#e14939;
-$blue: 				#5dc5e3;
+$blue: 				#6EC7BE;
 $yellow: 			#fecc53;
-$green: 			#7bc657;
+$screenwhite: 		#f8fafd;
+$navy:	 			#222334;
+
+// Mature
+$mutedgreen: 		#688849;
+$brickblack: 		#251c13;
+$darksienna: 		#471B10;
 
 $tan: 				#faf3db;		
 $brown: 			#6C635A;		
 
 
+// iPad
+$pink: 				#EA3E56; 				
+$igreen: 			#7bc657;
+$iblue: 			darken(#63CAE9, 20%);
+$iblack: 			#060506;
 
 // ----
 // Typography 
@@ -61,64 +70,121 @@ $h6:  				$sml;
 
 //-- MATURE
 
-// Colors
-$light-accent: 		lighten($brown, 15%);	
-$med-accent: 		desaturate($blue,10%);
-$dark-accent: 		desaturate($red,20%);
+// // Colors
+// $light-accent: 		#aaa;	
+// $med-accent: 		$mutedgreen;
+// $dark-accent: 		desaturate(lighten($darksienna, 10%), 30%);
 
-$dark-text: 		lighten($brickblack, 5%);
-$light-text: 		$white;
+// $dark-text: 		$black;
+// $light-text: 		$white;
 
-$link-color:		$med-accent;
-$link-hover: 		darken($med-accent, 20%);
+// $link-color:		$med-accent;
+// $link-hover: 		darken($link-color, 20%);
 
-// Components
-$body-bkgd: 		url(http://subtlepatterns.com/patterns/satinweave.png);
-$header-bkgd: 	rgba($dark-text, 0.7);
+// // Components
+// $body-bkgd: 		url(http://subtlepatterns.com/patterns/satinweave.png);
+// // $body-bkgd: 		url(../img/girl-at-bar-trans.jpg);
+// $body-text: 		$dark-text;
 
-// Typography
-$sans-serif: 		'Proxima Nova', Helvetica, sans-serif;
-$sans-serif-bold: 	'Proxima Nova' 700;
-$serif:             'Chaparral Pro', serif;
+// $header-bkgd: 		rgba($light-text, 0.7);
+// $header-text: 		$dark-text;
 
-$heading-font: 		$sans-serif;
-$body-font: 		$serif;
-$button-font: 		$sans-serif;
-$lead-font: 		$sans-serif;
+// // Typography
+// // $sans-serif: 		'Proxima Nova', Helvetica, sans-serif;
+// // $sans-serif-bold: 	'Proxima Nova' 700;
+// // $serif:             'Chaparral Pro', serif;
 
-// Utilities
-$accent-border: 	1px solid $light-accent;
+// $sans-serif: 		'Brandon Text Regular', Helvetica, sans-serif;
+// $sans-serif-bold: 	'Brandon Text Bold', Helvetica, sans-serif;
+// $serif:             'livory', serif;	
+
+
+// $heading-font: 		$serif;
+// $body-font: 			$serif;
+// $button-font: 		$sans-serif;
+// $lead-font: 			$sans-serif;
+
+// // Utilities
+// $accent-border: 	1px solid $light-accent;
+
 
 
 
 
 // -- PLAY
 
-// // Typography
-// $sans-serif: 		'Brandon Text Regular', Helvetica, sans-serif;
-// $sans-serif-bold: 	'Brandon Text Bold', Helvetica, sans-serif;
-// $serif:             'livory', serif;	
+// Typography
+$sans-serif: 		'Brandon Text Regular', Helvetica, sans-serif;
+$sans-serif-bold: 	'Brandon Text Bold', Helvetica, sans-serif;
+$serif:             'livory', serif;	
 
-// $heading-font: 		$sans-serif-bold;
-// $body-font: 		$serif;
-// $button-font: 		$sans-serif-bold;
-// $lead-font: 		$body-font;
+$heading-font: 		$sans-serif-bold;
+$body-font: 			$serif;
+$button-font: 		$sans-serif-bold;
+$lead-font: 			$body-font;
 
-// // Colors
-// $light-accent: 		$yellow;	
-// $med-accent: 		$blue;
-// $dark-accent: 		$red;
+// Colors
+$light-accent: 		$yellow;	
+$med-accent: 		$blue;
+$dark-accent: 		$red;
 
-// $dark-text: 		$navy;
+$dark-text: 			$navy;
+$light-text: 		$white;
+
+$link-color:			$dark-accent;
+$link-hover: 		darken($link-color, 20%);
+
+// Components
+$body-bkgd: 			$screenwhite;
+$body-text: 			$dark-text;
+
+$header-text:	 	$light-text;
+$header-bkgd:	 	$dark-text;
+
+// Utilities
+$accent-border: 	2px solid $light-accent;
+
+
+
+
+
+
+//-- MILLENIAL
+
+// Colors
+// $light-accent: 		$iblue;	
+// $med-accent: 		$igreen;
+// $dark-accent: 		$pink;
+
+// $dark-text: 		$black;
 // $light-text: 		$white;
 
 // $link-color:		$dark-accent;
-// $link-hover: 		darken($dark-accent, 20%);
+// $link-hover: 		darken($link-color, 20%);
 
 // // Components
 // $body-bkgd: 		$screenwhite;
-// $header-bkgd:	 	$dark-text;
+// // $body-bkgd: 		url(../img/girl-at-bar-trans.jpg);
+// $body-text: 		$dark-text;
+
+// $header-bkgd: 		$med-accent;
+// $header-text: 		$light-text;
+
+// // Typography
+// // $sans-serif: 		'Proxima Nova', Helvetica, sans-serif;
+// // $sans-serif-bold: 	'Proxima Nova' 700;
+// // $serif:             'Chaparral Pro', serif;
+
+// $sans-serif: 		'Source Sans Pro', Helvetica, sans-serif;
+// $sans-serif-bold: 	'Brandon Text Bold', Helvetica, sans-serif;
+// $serif:             'Tisa Pro', serif;	
+
+
+// $heading-font: 		$sans-serif;
+// $body-font: 		$sans-serif;
+// $button-font: 		$sans-serif;
+// $lead-font: 		$sans-serif;
 
 // // Utilities
-// $accent-border: 	2px solid $light-accent;
+// $accent-border: 	1px solid $light-accent;
 

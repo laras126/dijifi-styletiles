@@ -1,4 +1,6 @@
-<?php include('include/header.php'); ?>
+<?php 
+$theme = 'play';
+include('include/header.php'); ?>
 
 <div class="container">
 	<aside class="col-sm-5 site-sidebar">
@@ -18,7 +20,7 @@
 				<input type="text" class="col-sm-11 clearfix" placeholder="Brad Pitt">
 			</div>
 			<label>Message</label>
-			<textarea placeholder="Etiam porta sem malesuada magna mollis euismod. Cras mattis purus sit amet fermentum!" id="" cols="30" rows="6"></textarea>
+			<textarea class="col-sm-11 clearfix"placeholder="Etiam porta sem malesuada magna mollis euismod. Cras mattis purus sit amet fermentum!" id="" cols="30" rows="6"></textarea>
 			<input type="submit" value="Button">&nbsp;
 			<input type="submit" value="Another Button" class="btn-alt">	
 		</div>
@@ -40,11 +42,17 @@
 <br>
 <br>
 
-<!-- <div class="container">
-	<section class="callout">
-		<p class="lead">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit?</p>
-		<button>Lorem Ipsum</button>
-	</section>
-</div> -->
+<div class="container">
+	<!-- <div class="adjs">
+		<?php if($theme == 'play') { ?>
+			<p class="adj adj1">Mature</p>
+			<p class="adj">Quality</p>
+			<p class="adj">Craft</p>
+			<p class="adj">Modern</p>
+		<?php } else { ?>
+		
+		<?php }?>	
+	</div> -->
+</div>
 
 <?php include('include/footer.php'); ?>

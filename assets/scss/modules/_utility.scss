@@ -42,13 +42,8 @@
 		}
 	}
 	
-$class-slug: lined !default;
 
-@for $i from 1 through 13 {
-	.#{$class-slug}-#{$i} {
-		width: 100%;
-	    height: $sml/$i;
-	    // float: left;
-	    margin-bottom: $sml/($i/2);
-	}
+// Adjectives
+.adjs p {
+	display: inline-block;
 }
