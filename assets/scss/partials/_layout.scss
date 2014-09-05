@@ -2,24 +2,8 @@
 	@include box-sizing(border-box);
 }
 	
-.contain {
-	@include center($screen-lg);
-}
-
-
-
-// ----
-// Utility grid
-// ----
-
-// Here's a super simple grid to use for prototyping and if you are okay with some non-semantic-ish classes.
-
-$grid-cols: 12;
-
-@for $i from 1 through $grid-cols {
-  	.col-#{$i} { 
-  		@include from(2) {
-  			@include col($i/$grid-cols);	
-  		}
+@media (min-width: 1140px) {
+  	.container {
+		max-width: 1140px;
   	}
 }

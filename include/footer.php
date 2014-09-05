@@ -6,9 +6,8 @@
         </main> <!-- /.main -->
         
         <footer class="footer">
-            <div class="contain">
-                <h3>Footer</h3>
-                <p>Here's some info that's on every footer ever.</p>    
+            <div class="container">
+                
             </div>
         </footer>
 

@@ -1,0 +1,54 @@
+
+.light-accent {
+	background-color: $light-accent;
+}
+
+.dark-accent {
+	background-color: $dark-accent;
+}
+
+.med-accent {
+	background-color: $med-accent;
+}
+
+.dark-font {
+	background-color: $dark-text;
+}
+
+
+// Patterns
+
+.blocks div {
+	// height: 100px;
+}
+
+	.pattern-colorscheme div {
+		width: 20%;
+		padding-top: 20%;
+		float: left;
+		margin-right: 2%;
+
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+
+	.pattern-lined {
+		width: 100px;
+		border: 4px solid $grey;
+		div {
+			background-color: $light-accent;
+	
+		}
+	}
+	
+$class-slug: lined !default;
+
+@for $i from 1 through 13 {
+	.#{$class-slug}-#{$i} {
+		width: 100%;
+	    height: $sml/$i;
+	    // float: left;
+	    margin-bottom: $sml/($i/2);
+	}
+}

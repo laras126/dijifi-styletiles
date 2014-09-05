@@ -1,0 +1,64 @@
+html {
+	overflow-x: hidden;
+}
+
+body {
+	background: $body-bkgd;
+	color: $dark-text;
+	// background-image: url(../img/girl-at-bar.jpg);
+	// background-size: cover;
+	// background-position: center;
+}	
+
+
+.header {
+	text-align: center;
+	@media (min-width: $screen-md) {
+		text-align: left;
+	}
+	background: $header-bkgd;
+	color: $light-text;
+	margin-bottom: $base;
+}
+
+	.site-title {
+		margin-top: $sml;
+		text-shadow: 1px 1px 1px $dark-text;
+		border-right: $accent-border; 
+	}
+
+	.site-desc {
+		font-family: $sans-serif;
+		p {
+			margin-bottom: $sml;
+		}
+	}
+
+.site-content {
+
+}
+
+// Asides
+
+.site-sidebar {
+	padding-right: $h3;
+	// padding-top: $sml;
+	// margin-top: $h4;
+	h5 {
+		padding-top: $h4;
+	}
+}
+
+
+.more {
+	font-weight: bold;
+}
+
+// Forms
+
+// Hacks and overrides
+
+// Hide myfonts link
+#mfPreviewBarShow, #mfPreviewBar {
+	display: none;
+}
