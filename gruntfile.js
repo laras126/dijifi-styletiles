@@ -44,9 +44,9 @@ module.exports = function(grunt) {
               require: 'breakpoint-slicer'
             },
             files: {
-                'assets/css/main.min.css': [
-                'assets/scss/main.scss'
-              ]
+                'assets/css/main-Play.min.css': 'assets/scss/main-Play.scss', 
+                'assets/css/main-Press.min.css': 'assets/scss/main-Press.scss',
+                'assets/css/main-Pixel.min.css': 'assets/scss/main-Pixel.scss',
             }
           }
         },
