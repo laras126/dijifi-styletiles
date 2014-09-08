@@ -12,8 +12,6 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 		
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-
         <link rel="stylesheet" href="assets/css/main-<?php echo $theme ?>.min.css">
 
         <script src="assets/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
