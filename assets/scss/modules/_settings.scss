@@ -108,34 +108,36 @@ $h6:  				$sml;
 // $accent-border: 	1px solid $light-accent;
 
 
-
-
-
+$brandon-reg: 'Brandon Text Regular', Helvetica, sans-serif;
+$brandon-bold: 'Brandon Text Bold', Helvetica, sans-serif;
+// $brandon-italic: 'Brandon Text Italic', Helvetica, sans-serif;
 // -- PLAY
 
 // Typography
-$sans-serif: 		'Brandon Text Regular', Helvetica, sans-serif;
-$sans-serif-bold: 	'Brandon Text Bold', Helvetica, sans-serif;
-$serif:             'livory', serif;	
+$sans-serif: 		$brandon-reg;		
+$sans-serif-bold: 	$brandon-bold;
+// $sans-serif-italic: $brandon-italic;
+$serif:             'livory', serif;
+
 
 $heading-font: 		$sans-serif-bold;
-$body-font: 			$serif;
+$body-font: 		$serif;
 $button-font: 		$sans-serif-bold;
-$lead-font: 			$body-font;
+$lead-font: 		$body-font;
 
 // Colors
 $light-accent: 		$yellow;	
 $med-accent: 		$blue;
 $dark-accent: 		$red;
 
-$dark-text: 			$navy;
+$dark-text: 		$navy;
 $light-text: 		$white;
 
-$link-color:			$dark-accent;
+$link-color:		$dark-accent;
 $link-hover: 		darken($link-color, 20%);
 
 // Components
-$body-bkgd: 			$screenwhite;
+$body-bkgd: 		$screenwhite;
 $body-text: 			$dark-text;
 
 $header-text:	 	$light-text;
@@ -154,7 +156,7 @@ $accent-border: 	2px solid $light-accent;
 // Colors
 // $light-accent: 		$iblue;	
 // $med-accent: 		$igreen;
-// $dark-accent: 		$pink;
+// $dark-accent: 		$yellow;
 
 // $dark-text: 		$black;
 // $light-text: 		$white;
@@ -167,15 +169,15 @@ $accent-border: 	2px solid $light-accent;
 // // $body-bkgd: 		url(../img/girl-at-bar-trans.jpg);
 // $body-text: 		$dark-text;
 
-// $header-bkgd: 		$med-accent;
-// $header-text: 		$light-text;
+// $header-bkgd: 		$body-bkgd;
+// $header-text: 		$dark-text;
 
 // // Typography
 // // $sans-serif: 		'Proxima Nova', Helvetica, sans-serif;
 // // $sans-serif-bold: 	'Proxima Nova' 700;
 // // $serif:             'Chaparral Pro', serif;
 
-// $sans-serif: 		'Source Sans Pro', Helvetica, sans-serif;
+// $sans-serif: 		'Brandon Text Regular', Helvetica, sans-serif;
 // $sans-serif-bold: 	'Brandon Text Bold', Helvetica, sans-serif;
 // $serif:             'Tisa Pro', serif;	
 

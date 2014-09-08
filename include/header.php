@@ -36,7 +36,7 @@
 
     </head>
 
-    <body>
+    <body class="theme-<?php echo $theme ?>">
         <!--[if lt IE 9]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
@@ -48,7 +48,7 @@
             <div class="container">
                 <div class="col-sm-5">
                     <!-- <h1 class="site-title"></h1>                 -->
-                    <h1 class="site-title">Style Tile</h1>
+                    <h1 class="site-title">Theme <?php echo $theme ?></h1>
                 </div>
                 <div class="col-sms site-desc">
                     <p>Diji&#xFB01;<br>

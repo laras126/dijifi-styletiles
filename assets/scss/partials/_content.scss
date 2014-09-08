@@ -63,3 +63,98 @@ body {
 #mfPreviewBarShow, #mfPreviewBar {
 	display: none;
 }
+
+
+// ----
+// ---- Style Components
+// ----
+
+// Patterns and color scheme
+
+.blocks div {}
+
+	.pattern-colorscheme div {
+		width: 20%;
+		padding-top: 20%;
+		float: left;
+		margin-right: 2%;
+
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+
+	.pattern-lined {
+		width: 100px;
+		border: 4px solid $grey;
+		div {
+			background-color: $light-accent;
+	
+		}
+	}
+	
+
+// ----
+// ---- Footer
+// ----
+
+.footer {
+	margin-top: $h3;
+	margin-bottom: $h2;
+	display: table;
+}
+
+
+// Adjectives
+
+.adjs {
+	display: table-row;
+	width: 100%;
+}
+
+.adj {
+	display: table-cell;
+	text-align: center;
+	padding: $sml/2 0;
+	font-size: $h3;
+	width: 10%;
+	vertical-align: middle;
+}
+
+.theme-Play {
+	.adj1 {
+		font-family: $sans-serif-bold;
+		color: $dark-accent;
+		font-size: $h2;
+		text-shadow: 1px 2px 0 $light-accent,
+					 2px 3px 1px rgba($dark-text, 0.6);
+	}
+
+	.adj2 {
+		color: $light-accent;
+	}
+
+	.adj3 {
+		font-family: $sans-serif;
+		font-weight: 300;
+
+	}
+
+	.adj4 {
+		font-family: $heading-font;
+		font-weight: 300;
+			
+	}
+
+	.adj5 {
+		font-style: italic;
+		color: $med-accent;
+	}
+
+	.adj6 {
+		border-top: $accent-border;
+		font-family: $heading-font;
+		color: $body-bkgd;
+		background-color: $body-text;
+	}
+}

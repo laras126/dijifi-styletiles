@@ -1,12 +1,13 @@
 <?php 
-$theme = 'play';
+$theme = 'Play';
 include('include/header.php'); ?>
 
 <div class="container">
 	<aside class="col-sm-5 site-sidebar">
-			<br>
-			<br>
+			
 		<div class="blocks pattern-colorscheme container">
+			<h5>Color Scheme</h5>
+			<p class="section-desc">These colors would occur througout the site.</p>
 		    <div class="light-accent"></div> 
 		    <div class="med-accent"></div> 
 		    <div class="dark-accent"></div> 
@@ -14,7 +15,7 @@ include('include/header.php'); ?>
 		</div>
 		<div class="container">
 			<h5>Form Example</h5>
-			<small>Description of the form would be here.</small>
+			<p class="section-desc">Description of the form would be here.</p>
 			<label>Name</label>
 			<div class="clearfix">
 				<input type="text" class="col-sm-11 clearfix" placeholder="Brad Pitt">
@@ -27,7 +28,8 @@ include('include/header.php'); ?>
 		
 	</aside>
 	<div class="col-sm-7 site-content">
-		<h2>Example Page Title</h2>
+		<!-- diji&#xFB01;</h2>  -->
+		<h1>Example Page Title</h1>
 		<p class="lead">Sed posuere consectetur est at lobortis.</p>
 		
 		<h3>Section Title</h3>
@@ -36,23 +38,10 @@ include('include/header.php'); ?>
 		<h4>Subsection Title</h4>
 		<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis.</p>
 		<p class="more"><a href="#">Text link...</a></p>
+		<hr>
 	</div>
 
 </div>
 <br>
-<br>
-
-<div class="container">
-	<!-- <div class="adjs">
-		<?php if($theme == 'play') { ?>
-			<p class="adj adj1">Mature</p>
-			<p class="adj">Quality</p>
-			<p class="adj">Craft</p>
-			<p class="adj">Modern</p>
-		<?php } else { ?>
-		
-		<?php }?>	
-	</div> -->
-</div>
 
 <?php include('include/footer.php'); ?>

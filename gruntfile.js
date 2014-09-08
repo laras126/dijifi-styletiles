@@ -36,7 +36,7 @@ module.exports = function(grunt) {
         sass: {
           dist: {
             options: {
-              style: 'compressed',
+              style: 'expanded',
               compass: true,
               // Source maps are available, but require Sass 3.3.0 to be installed
               // https://github.com/gruntassets/js/grunt-contrib-sass#sourcemap

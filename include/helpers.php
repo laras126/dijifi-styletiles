@@ -1,3 +1,20 @@
 <?php
 
+/** 
+ *
+ * Define an array of adjectives specific to each theme name
+ * Loop through array and print adjectives, each with a unique class
+ *
+ **/ 
+
+function printAdjectives($theme) {
+	if($theme == 'Play') {
+	    $adj = ['Playful', 'Retro', 'Nostalgic', 'Friendly', 'Clear', 'Encouraging', 'Con&#xFB01;dent'];
+	}
+
+	for ($i=1; $i<=6; $i++) { ?>
+	    <div class="adj adj<?php echo $i ?>"><?php echo $adj[$i] ?></div>	
+	<?php }
+}
+
 ?>
