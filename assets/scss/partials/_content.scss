@@ -105,7 +105,7 @@ body {
 }
 
 .theme-Play {
-	.adj1 {
+	.adj0 {
 		font-family: $sans-serif-bold;
 		color: $dark-accent;
 		font-size: $h2;
@@ -113,7 +113,7 @@ body {
 					 // 2px 3px 1px rgba($dark-text, 0.6);
 	}
 
-	.adj2 {
+	.adj1 {
 		// background-color: $light-accent;
 		background-color: $dark-text;
 		    -webkit-background-clip: text;
@@ -123,24 +123,24 @@ body {
 		    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;		
 	}
 
-	.adj3 {
+	.adj2 {
 		font-family: $sans-serif;
 		font-weight: 300;
 		color: $light-accent;
 	}
 
-	.adj4 {
+	.adj3 {
 		font-family: $heading-font;
 		font-weight: 300;
 			
 	}
 
-	.adj5 {
+	.adj4 {
 		font-style: italic;
 		color: $med-accent;
 	}
 
-	.adj6 {
+	.adj5 {
 		// border-top: $accent-border;
 		font-weight: 700;
 	}
@@ -183,17 +183,38 @@ body {
 }
 
 .theme-Pixel {
-	.adj1 {}
+	.adj0 {
+		font-variant: small-caps;
+		text-transform: lowercase;
+		letter-spacing: 3px;
+		font-family: $sans-serif;
+		font-weight: 700;
+		text-shadow: 1px 1px 0 darken($body-bkgd, 20%);
+	}
 
-	.adj2 {}
+	.adj1 {
+		text-transform: lowercase;
+		color: $dark-accent;
+		font-family: $sans-serif;
+	}
 
-	.adj3 {}
+	.adj2 {
+		font-style: italic;
+		color: $med-accent;
+	}
 
-	.adj4 {}
+	.adj3 {
 
-	.adj5 {}
+	}
 
-	.adj6 {}
+	.adj4 {
+		font-family: $sans-serif;
+		font-size: $h4;
+	}
+
+	.adj5 {
+		color: $light-accent;
+	}
 }
 
 

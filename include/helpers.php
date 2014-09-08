@@ -9,15 +9,15 @@
 
 function printAdjectives($theme) {
 	if($theme == 'Play') {
-	    $adj = ['Playful', 'Retro', 'Nostalgic', 'Friendly', 'Clear', 'Encouraging', 'Con&#xFB01;dent'];
+	    $adj = ['Retro', 'Nostalgic', 'Friendly', 'Clear', 'Encouraging', 'Con&#xFB01;dent'];
 	}
 
 	if($theme == 'Press') {
 	    $adj = ['Subtle', 'Artisanal', 'Mature', 'Calming', 'Quality', 'Historical'];
 	}
 
-	if($theme == 'Play') {
-	    $adj = ['Retro', 'Nostalgic', 'Friendly', 'Clear', 'Encouraging', 'Con&#xFB01;dent'];
+	if($theme == 'Pixel') {
+	    $adj = ['Digital', 'Contemporary', 'Connected', 'Modest', 'Millenial', 'Approachable'];
 	}
 
 

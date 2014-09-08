@@ -22,25 +22,27 @@ $grey: 				#aaa;
 
 // Play
 $red: 				#e14939;
-$blue: 				#6EC7BE;
+$oldgreen: 			#6EC7BE;
+$blue:				#3C7AAA;
 $yellow: 			#fecc53;
-$screenwhite: 		#f8fafd;
 $navy:	 			#222334;
+$tan: 				#faf3db;		
 
 // Mature
 $mutedgreen: 		#688849;
 $brickblack: 		#251c13;
 $darksienna: 		#471B10;
 
-$tan: 				#faf3db;		
 $brown: 			#6C635A;		
 
 
 // iPad
-$pink: 				#EA3E56; 				
+$ipink: 				#EA3E56; 				
 $igreen: 			#7bc657;
 $iblue: 			darken(#63CAE9, 20%);
 $iblack: 			#060506;
+$screenwhite: 		#f8fafd;
+
 
 // ----
 // Typography 
@@ -72,51 +74,10 @@ $brandon-bold: 'Brandon Text Bold', Helvetica, sans-serif;
 // ----
 
 
-//-- PRESS
-
-// Colors
-$light-accent: 		#aaa;	
-$med-accent: 		$mutedgreen;
-$dark-accent: 		desaturate(lighten($darksienna, 10%), 30%);
-
-$dark-text: 		lighten($black, 10%);
-$light-text: 		$white;
-
-$link-color:		$med-accent;
-$link-hover: 		darken($link-color, 20%);
-
-// Components
-$body-bkgd: 		url(http://subtlepatterns.com/patterns/satinweave.png);
-// $body-bkgd: 		url(../img/girl-at-bar-trans.jpg);
-$body-text: 		$dark-text;
-
-$header-bkgd: 		rgba($light-text, 0.7);
-$header-text: 		$dark-text;
-
-// Typography
-// $sans-serif: 		'Proxima Nova', Helvetica, sans-serif;
-// $sans-serif-bold: 	'Proxima Nova' 700;
-// $serif:             'Chaparral Pro', serif;
-
-$sans-serif: 			$brandon-reg;
-$sans-serif-bold: 		$brandon-bold;
-// $sans-serif-bold: 	'Brandon Text Bold', Helvetica, sans-serif;
-$serif:             'livory', serif;	
-
-
-$heading-font: 		$serif;
-$body-font: 			$serif;
-$button-font: 		$sans-serif;
-$lead-font: 			$sans-serif;
-
-// Utilities
-$accent-border: 	1px solid $light-accent;
-
-
 
 // -- PLAY
 
-// Typography
+// // Typography
 // $sans-serif: 		$brandon-reg;		
 // $sans-serif-bold: 	$brandon-bold;
 // // $sans-serif-italic: $brandon-italic;
@@ -130,7 +91,7 @@ $accent-border: 	1px solid $light-accent;
 
 // // Colors
 // $light-accent: 		$yellow;	
-// $med-accent: 		$blue;
+// $med-accent: 		$oldgreen;
 // $dark-accent: 		$red;
 
 // $dark-text: 		$navy;
@@ -140,8 +101,8 @@ $accent-border: 	1px solid $light-accent;
 // $link-hover: 		darken($link-color, 20%);
 
 // // Components
-// $body-bkgd: 		$screenwhite;
-// $body-text: 			$dark-text;
+// $body-bkgd: 		$tan;
+// $body-text: 		$dark-text;
 
 // $header-text:	 	$light-text;
 // $header-bkgd:	 	$dark-text;
@@ -152,27 +113,25 @@ $accent-border: 	1px solid $light-accent;
 
 
 
+//-- PRESS
 
+// // Colors
+// $light-accent: 		#aaa;	
+// $med-accent: 		$mutedgreen;
+// $dark-accent: 		desaturate(lighten($darksienna, 10%), 30%);
 
-//-- PIXEL
-
-// Colors
-// $light-accent: 		$iblue;	
-// $med-accent: 		$igreen;
-// $dark-accent: 		$yellow;
-
-// $dark-text: 		$black;
+// $dark-text: 		lighten($black, 10%);
 // $light-text: 		$white;
 
-// $link-color:		$dark-accent;
+// $link-color:		$med-accent;
 // $link-hover: 		darken($link-color, 20%);
 
 // // Components
-// $body-bkgd: 		$screenwhite;
+// $body-bkgd: 		url(http://subtlepatterns.com/patterns/satinweave.png);
 // // $body-bkgd: 		url(../img/girl-at-bar-trans.jpg);
 // $body-text: 		$dark-text;
 
-// $header-bkgd: 		$body-bkgd;
+// $header-bkgd: 		rgba($light-text, 0.7);
 // $header-text: 		$dark-text;
 
 // // Typography
@@ -180,16 +139,59 @@ $accent-border: 	1px solid $light-accent;
 // // $sans-serif-bold: 	'Proxima Nova' 700;
 // // $serif:             'Chaparral Pro', serif;
 
+// $sans-serif: 			$brandon-reg;
+// $sans-serif-bold: 		$brandon-bold;
+// // $sans-serif-bold: 	'Brandon Text Bold', Helvetica, sans-serif;
+// $serif:             'livory', serif;	
+
+
+// $heading-font: 		$serif;
+// $body-font: 			$serif;
+// $button-font: 		$sans-serif;
+// $lead-font: 			$sans-serif;
+
+// // Utilities
+// $accent-border: 	1px solid $light-accent;
+
+
+
+
+//-- PIXEL
+
+// Colors
+$light-accent: 		$iblue;	
+$med-accent: 		$igreen;
+$dark-accent: 		$ipink;
+
+$dark-text: 		$black;
+$light-text: 		$white;
+
+$link-color:		$dark-accent;
+$link-hover: 		darken($link-color, 20%);
+
+// Components
+$body-bkgd: 		$screenwhite;
+// $body-bkgd: 		url(../img/girl-at-bar-trans.jpg);
+$body-text: 		$dark-text;
+
+$header-bkgd: 		$body-bkgd;
+$header-text: 		$dark-text;
+
+// Typography
+$sans-serif: 		'Proxima Nova', Helvetica, sans-serif;
+$sans-serif-bold: 	'Proxima Nova' 700;
+$serif:             'livory', serif;
+
 // $sans-serif: 		'Brandon Text Regular', Helvetica, sans-serif;
 // $sans-serif-bold: 	'Brandon Text Bold', Helvetica, sans-serif;
 // $serif:             'Tisa Pro', serif;	
 
 
-// $heading-font: 		$sans-serif;
-// $body-font: 		$sans-serif;
-// $button-font: 		$sans-serif;
-// $lead-font: 		$sans-serif;
+$heading-font: 		$sans-serif;
+$body-font: 		$serif;
+$button-font: 		$sans-serif;
+$lead-font: 		$sans-serif;
 
-// // Utilities
-// $accent-border: 	1px solid $light-accent;
+// Utilities
+$accent-border: 	1px solid $light-accent;
 
