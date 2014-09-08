@@ -7,17 +7,21 @@
  *
  **/ 
 
+if($theme == '') {
+	$theme = 'Play';
+}
+
 function printAdjectives($theme) {
 	if($theme == 'Play') {
-	    $adj = ['Retro', 'Nostalgic', 'Friendly', 'Clear', 'Encouraging', 'Con&#xFB01;dent'];
+	    $adj = array('Retro', 'Nostalgic', 'Friendly', 'Clear', 'Encouraging', 'Con&#xFB01;dent');
 	}
 
 	if($theme == 'Press') {
-	    $adj = ['Subtle', 'Artisanal', 'Mature', 'Calming', 'Quality', 'Historical'];
+	    $adj = array('Subtle', 'Artisanal', 'Mature', 'Calming', 'Quality', 'Historical');
 	}
 
 	if($theme == 'Pixel') {
-	    $adj = ['Digital', 'Contemporary', 'Connected', 'Modest', 'Millenial', 'Approachable'];
+	    $adj = array('Digital', 'Contemporary', 'Connected', 'Modest', 'Millenial', 'Approachable');
 	}
 
 

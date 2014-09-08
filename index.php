@@ -8,7 +8,7 @@ include('include/header.php'); ?>
 			
 		<div class="blocks pattern-colorscheme container">
 			<h5>Color Scheme</h5>
-			<p class="section-desc">These colors would occur througout the site.</p>
+			<p class="section-desc">These colors would occur throughout the site.</p>
 		    <div class="light-accent"></div> 
 		    <div class="med-accent"></div> 
 		    <div class="dark-accent"></div> 
