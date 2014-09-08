@@ -5,10 +5,6 @@ html {
 body {
 	background: $body-bkgd;
 	color: $body-text;
-	// background-image: url(../img/girl-at-bar.jpg);
-	// background-size: cover;
-	// background-position: center;
-	// background-attachment: fixed;
 }	
 
 
@@ -25,7 +21,9 @@ body {
 	.site-title {
 		margin-top: $sml;
 		// text-shadow: 1px 1px 1px $dark-text;
-		border-right: $accent-border; 
+		@media (min-width: $screen-md) {
+			border-right: $accent-border; 
+		}
 	}
 
 	.site-desc {
@@ -35,34 +33,13 @@ body {
 		}
 	}
 
-.site-content {
-// background-color: rgba($white, 0.6);
-}
 
 // Asides
-
-.site-sidebar {
-	padding-right: $h3;
-	// padding-top: $sml;
-	// margin-top: $h4;
-	h5 {
-		padding-top: $h4;
-	}
-}
-
 
 .more {
 	font-weight: bold;
 }
 
-// Forms
-
-// Hacks and overrides
-
-// Hide myfonts link
-#mfPreviewBarShow, #mfPreviewBar {
-	display: none;
-}
 
 
 // ----
@@ -108,17 +85,23 @@ body {
 // Adjectives
 
 .adjs {
-	display: table-row;
 	width: 100%;
+
+	@media (min-width: $screen-lg) {
+		display: table-row;
+	} 
 }
 
 .adj {
-	display: table-cell;
+	@media (min-width: $screen-lg) {
+		display: table-cell;
+		width: 10%;
+		vertical-align: middle;
+	}
 	text-align: center;
 	padding: $sml/2 0;
 	font-size: $h3;
-	width: 10%;
-	vertical-align: middle;
+	
 }
 
 .theme-Play {
@@ -127,17 +110,23 @@ body {
 		color: $dark-accent;
 		font-size: $h2;
 		text-shadow: 1px 2px 0 $light-accent,
-					 2px 3px 1px rgba($dark-text, 0.6);
+					 // 2px 3px 1px rgba($dark-text, 0.6);
 	}
 
 	.adj2 {
-		color: $light-accent;
+		// background-color: $light-accent;
+		background-color: $dark-text;
+		    -webkit-background-clip: text;
+		//     -moz-background-clip: text;
+		    background-clip: text;
+		    color: transparent;
+		    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;		
 	}
 
 	.adj3 {
 		font-family: $sans-serif;
 		font-weight: 300;
-
+		color: $light-accent;
 	}
 
 	.adj4 {
@@ -152,9 +141,69 @@ body {
 	}
 
 	.adj6 {
-		border-top: $accent-border;
-		font-family: $heading-font;
-		color: $body-bkgd;
-		background-color: $body-text;
+		// border-top: $accent-border;
+		font-weight: 700;
 	}
 }
+
+.theme-Press {
+	.adj0 {
+		// font-variant: small-caps;
+		// letter-spacing: 2px;
+		// font-weight: bold;
+		color: $light-accent;
+	}
+
+	.adj1 {
+		color: $med-accent;
+		font-family: $sans-serif-bold;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+
+	.adj2 {
+		font-weight: bold;
+	}
+
+	.adj3 {
+		font-family: $sans-serif;
+		color: $dark-accent;
+		text-shadow: 1px 1px 2px #fff;
+	}
+
+	.adj4 {
+		font-style: italic;
+	}
+
+	.adj5 {
+		font-variant: small-caps;
+		font-weight: bold;
+		font-size: $h5;
+	}
+}
+
+.theme-Pixel {
+	.adj1 {}
+
+	.adj2 {}
+
+	.adj3 {}
+
+	.adj4 {}
+
+	.adj5 {}
+
+	.adj6 {}
+}
+
+
+// ----
+// ---- Overrides
+// ----
+
+
+// Hide myfonts link
+#mfPreviewBarShow, #mfPreviewBar {
+	display: none;
+}
+

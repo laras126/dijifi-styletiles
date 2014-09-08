@@ -63,95 +63,98 @@ $h5:  				$base;
 $h6:  				$sml;
 
 
+$brandon-reg: 'Brandon Text Regular', Helvetica, sans-serif;
+$brandon-bold: 'Brandon Text Bold', Helvetica, sans-serif;
+
+
 // ----
 // Themes
 // ----
 
 
-//-- MATURE
-
-// // Colors
-// $light-accent: 		#aaa;	
-// $med-accent: 		$mutedgreen;
-// $dark-accent: 		desaturate(lighten($darksienna, 10%), 30%);
-
-// $dark-text: 		$black;
-// $light-text: 		$white;
-
-// $link-color:		$med-accent;
-// $link-hover: 		darken($link-color, 20%);
-
-// // Components
-// $body-bkgd: 		url(http://subtlepatterns.com/patterns/satinweave.png);
-// // $body-bkgd: 		url(../img/girl-at-bar-trans.jpg);
-// $body-text: 		$dark-text;
-
-// $header-bkgd: 		rgba($light-text, 0.7);
-// $header-text: 		$dark-text;
-
-// // Typography
-// // $sans-serif: 		'Proxima Nova', Helvetica, sans-serif;
-// // $sans-serif-bold: 	'Proxima Nova' 700;
-// // $serif:             'Chaparral Pro', serif;
-
-// $sans-serif: 		'Brandon Text Regular', Helvetica, sans-serif;
-// $sans-serif-bold: 	'Brandon Text Bold', Helvetica, sans-serif;
-// $serif:             'livory', serif;	
-
-
-// $heading-font: 		$serif;
-// $body-font: 			$serif;
-// $button-font: 		$sans-serif;
-// $lead-font: 			$sans-serif;
-
-// // Utilities
-// $accent-border: 	1px solid $light-accent;
-
-
-$brandon-reg: 'Brandon Text Regular', Helvetica, sans-serif;
-$brandon-bold: 'Brandon Text Bold', Helvetica, sans-serif;
-// $brandon-italic: 'Brandon Text Italic', Helvetica, sans-serif;
-// -- PLAY
-
-// Typography
-$sans-serif: 		$brandon-reg;		
-$sans-serif-bold: 	$brandon-bold;
-// $sans-serif-italic: $brandon-italic;
-$serif:             'livory', serif;
-
-
-$heading-font: 		$sans-serif-bold;
-$body-font: 		$serif;
-$button-font: 		$sans-serif-bold;
-$lead-font: 		$body-font;
+//-- PRESS
 
 // Colors
-$light-accent: 		$yellow;	
-$med-accent: 		$blue;
-$dark-accent: 		$red;
+$light-accent: 		#aaa;	
+$med-accent: 		$mutedgreen;
+$dark-accent: 		desaturate(lighten($darksienna, 10%), 30%);
 
-$dark-text: 		$navy;
+$dark-text: 		lighten($black, 10%);
 $light-text: 		$white;
 
-$link-color:		$dark-accent;
+$link-color:		$med-accent;
 $link-hover: 		darken($link-color, 20%);
 
 // Components
-$body-bkgd: 		$screenwhite;
-$body-text: 			$dark-text;
+$body-bkgd: 		url(http://subtlepatterns.com/patterns/satinweave.png);
+// $body-bkgd: 		url(../img/girl-at-bar-trans.jpg);
+$body-text: 		$dark-text;
 
-$header-text:	 	$light-text;
-$header-bkgd:	 	$dark-text;
+$header-bkgd: 		rgba($light-text, 0.7);
+$header-text: 		$dark-text;
+
+// Typography
+// $sans-serif: 		'Proxima Nova', Helvetica, sans-serif;
+// $sans-serif-bold: 	'Proxima Nova' 700;
+// $serif:             'Chaparral Pro', serif;
+
+$sans-serif: 			$brandon-reg;
+$sans-serif-bold: 		$brandon-bold;
+// $sans-serif-bold: 	'Brandon Text Bold', Helvetica, sans-serif;
+$serif:             'livory', serif;	
+
+
+$heading-font: 		$serif;
+$body-font: 			$serif;
+$button-font: 		$sans-serif;
+$lead-font: 			$sans-serif;
 
 // Utilities
-$accent-border: 	2px solid $light-accent;
+$accent-border: 	1px solid $light-accent;
+
+
+
+// -- PLAY
+
+// Typography
+// $sans-serif: 		$brandon-reg;		
+// $sans-serif-bold: 	$brandon-bold;
+// // $sans-serif-italic: $brandon-italic;
+// $serif:             'livory', serif;
+
+
+// $heading-font: 		$sans-serif-bold;
+// $body-font: 		$serif;
+// $button-font: 		$sans-serif-bold;
+// $lead-font: 		$body-font;
+
+// // Colors
+// $light-accent: 		$yellow;	
+// $med-accent: 		$blue;
+// $dark-accent: 		$red;
+
+// $dark-text: 		$navy;
+// $light-text: 		$white;
+
+// $link-color:		$dark-accent;
+// $link-hover: 		darken($link-color, 20%);
+
+// // Components
+// $body-bkgd: 		$screenwhite;
+// $body-text: 			$dark-text;
+
+// $header-text:	 	$light-text;
+// $header-bkgd:	 	$dark-text;
+
+// // Utilities
+// $accent-border: 	2px solid $light-accent;
 
 
 
 
 
 
-//-- MILLENIAL
+//-- PIXEL
 
 // Colors
 // $light-accent: 		$iblue;	

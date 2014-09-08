@@ -12,7 +12,16 @@ function printAdjectives($theme) {
 	    $adj = ['Playful', 'Retro', 'Nostalgic', 'Friendly', 'Clear', 'Encouraging', 'Con&#xFB01;dent'];
 	}
 
-	for ($i=1; $i<=6; $i++) { ?>
+	if($theme == 'Press') {
+	    $adj = ['Subtle', 'Artisanal', 'Mature', 'Calming', 'Quality', 'Historical'];
+	}
+
+	if($theme == 'Play') {
+	    $adj = ['Retro', 'Nostalgic', 'Friendly', 'Clear', 'Encouraging', 'Con&#xFB01;dent'];
+	}
+
+
+	for ($i=0; $i<=5; $i++) { ?>
 	    <div class="adj adj<?php echo $i ?>"><?php echo $adj[$i] ?></div>	
 	<?php }
 }

@@ -1,5 +1,6 @@
 <?php 
-$theme = 'Play';
+
+$theme = $_GET['theme'];
 include('include/header.php'); ?>
 
 <div class="container">
@@ -22,8 +23,11 @@ include('include/header.php'); ?>
 			</div>
 			<label>Message</label>
 			<textarea class="col-sm-11 clearfix"placeholder="Etiam porta sem malesuada magna mollis euismod. Cras mattis purus sit amet fermentum!" id="" cols="30" rows="6"></textarea>
-			<input type="submit" value="Button">&nbsp;
-			<input type="submit" value="Another Button" class="btn-alt">	
+			<div class="clearfix">
+				<input type="submit" value="Button">&nbsp;
+				<input type="submit" value="Another Button" class="btn-alt">		
+			</div>
+			
 		</div>
 		
 	</aside>
@@ -38,7 +42,6 @@ include('include/header.php'); ?>
 		<h4>Subsection Title</h4>
 		<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis.</p>
 		<p class="more"><a href="#">Text link...</a></p>
-		<hr>
 	</div>
 
 </div>
