@@ -1,0 +1,38 @@
+// Variables for the theme Play
+
+
+// -- PLAY
+
+// Typography
+$sans-serif: 		$brandon-reg;		
+$sans-serif-bold: 	$brandon-bold;
+// $sans-serif-italic: $brandon-italic;
+$serif:             'livory', serif;
+
+
+$heading-font: 		$sans-serif-bold;
+$body-font: 		$serif;
+$button-font: 		$sans-serif-bold;
+$lead-font: 		$body-font;
+
+// Colors
+$light-accent: 		$yellow;	
+$med-accent: 		$oldgreen;
+$dark-accent: 		$red;
+
+$dark-text: 		$navy;
+$light-text: 		$white;
+
+$link-color:		$dark-accent;
+$link-hover: 		darken($link-color, 20%);
+
+// Components
+$body-bkgd: 		$tan;
+$body-text: 		$dark-text;
+
+$header-text:	 	$light-text;
+$header-bkgd:	 	$dark-text;
+
+// Utilities
+$accent-border: 	2px solid $light-accent;
+
