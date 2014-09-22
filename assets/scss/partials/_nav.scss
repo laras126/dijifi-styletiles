@@ -1,14 +1,31 @@
 .nav {
-	@include horizontal-list($h4);
-	font-family: $sans-serif;
+	// @include horizontal-list($h4);
+	// font-family: $sans-serif;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	// margin-top: $h5;
 	font-size: $h5;
+	text-align: center;
+
 	ul {
-		@media (min-width: $screen-sm) {
-			float: right;
-			@include clearfix;
+		padding: 0;
+		margin: $sml 0;
+		li {
+			padding: $sml 0;
+
+			@media (min-width: $screen-sm) {
+				// padding: $sml 0;
+			}
 		}
+		// @media (min-width: $screen-sm) {
+		// 	padding: 0 $sml 0;
+		// 	// @include clearfix;
+		// }
 	}
+}
+
+.active {
+	background-color: $body-bkgd;
+	color: $dark-text;
+	padding: 0;
+	// border-color: $med-accent !important;
 }

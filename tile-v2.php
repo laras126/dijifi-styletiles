@@ -4,6 +4,21 @@ $theme = $_GET['theme'];
 include('include/header.php'); ?>
 
 <div class="container main">
+	
+	<div class="col-sm-7 site-content">
+		<h1>Digitization New York City Trusts</h1>
+		<p class="lead">We are a small film, photo, video, and audio digitization studio in New York City.</p>
+		
+		<h3>Section Title</h3>
+		<p><span class="p-lead">Sed odio dui duis mollis</span> commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+	
+		<h4>Care and Attention</h4>
+		<blockquote>
+			I had twenty years of different format videos to be transferred to a hard drive. I walked into the office and was treated like I was bringing a child to the doctor.
+		</blockquote>
+		<p class="more"><a href="#">Text link...</a></p>
+	</div>
+	
 	<aside class="col-sm-5 site-sidebar">
 			
 		<div class="blocks pattern-colorscheme container">
@@ -31,19 +46,6 @@ include('include/header.php'); ?>
 		</div>
 		
 	</aside>
-	<div class="col-sm-7 site-content">
-		<!-- diji&#xFB01;</h2>  -->
-		<h1>Example Page Title</h1>
-		<p class="lead">Sed posuere consectetur est at lobortis.</p>
-		
-		<h3>Section Title</h3>
-		<p><span class="p-lead">Sed odio dui duis mollis</span> commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-	
-		<h4>Subsection Title</h4>
-		<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis.</p>
-		<p class="more"><a href="#">Text link...</a></p>
-	</div>
-
 </div>
 <br>
 

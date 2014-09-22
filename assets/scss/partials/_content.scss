@@ -1,3 +1,7 @@
+// ----
+// ---- Base
+// ----
+
 html {
 	overflow-x: hidden;
 }
@@ -7,22 +11,36 @@ body {
 	color: $body-text;
 }	
 
+img {
+	max-width: 100%;
+}
+
+	.full-img {
+		width: 100%;
+	}
 
 .header {
 	text-align: center;
-	@media (min-width: $screen-md) {
+	@media (min-width: $screen-lg) {
 		text-align: left;
 	}
+	position: fixed;
+	width: 100%;
+	z-index: 9;
 	background: $header-bkgd;
 	color: $header-text;
-	margin-bottom: $base;
+
+	&--site {
+		// border-bottom: 10px solid $med-accent;
+	}
 }
 
 	.site-title {
-		margin-top: $sml;
+		// margin: 0;
+		margin: 0 0 $sml;
 		// text-shadow: 1px 1px 1px $dark-text;
-		@media (min-width: $screen-md) {
-			border-right: $accent-border; 
+		@media (min-width: $screen-sm) {
+			margin: 0;
 		}
 	}
 
@@ -33,6 +51,40 @@ body {
 		}
 	}
 
+	.header {
+		&--case_study {
+
+			&#medium {
+				background-image: url('../img/boxes.jpg');
+			}
+
+			&#process {
+				background-image: url('../img/old-camera.jpg');
+				padding-top: $h1*9;
+			}
+
+			&#complete {
+				background-image: url('../img/computer.jpg');
+				padding: $h1*3 0;
+			}
+
+			background-size: cover;
+			background-position: center center;
+			background-attachment: fixed; 
+			padding: $h1*4 0 $h1*2;
+		}
+
+		&__content {
+			background-color: rgba($body-bkgd, 0.8);
+			padding: $h3 $h2;
+		}
+	}
+	
+	.top-border {
+		position: relative;
+		bottom: -$sml/2;
+	}
+
 
 // Asides
 
@@ -41,6 +93,14 @@ body {
 }
 
 
+
+// ----
+// ---- Main Content
+// ----
+
+.main {
+	padding-top: $h1*1.5;
+}
 
 // ----
 // ---- Style Components
@@ -81,6 +141,11 @@ body {
 	display: table;
 }
 
+.quick-quote {
+	background-color: $med-accent;
+	border-top: 4px solid $light-accent;
+	color: $light-text;
+}
 
 // Adjectives
 

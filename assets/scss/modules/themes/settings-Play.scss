@@ -4,20 +4,21 @@
 // -- PLAY
 
 // Typography
-$sans-serif: 		$brandon-reg;		
-$sans-serif-bold: 	$brandon-bold;
+$sans-serif: 		'Open Sans';		
+$sans-serif-bold: 	'brandon-grotesque';
 // $sans-serif-italic: $brandon-italic;
-$serif:             'livory', serif;
+$serif:             'Chaparral Pro', serif;
+$other: 			'Proxima Nova';
 
 
-$heading-font: 		$sans-serif-bold;
+$heading-font: 		$sans-serif;
 $body-font: 		$serif;
-$button-font: 		$sans-serif-bold;
+$button-font: 		$sans-serif;
 $lead-font: 		$body-font;
 
 // Colors
 $light-accent: 		$yellow;	
-$med-accent: 		$oldgreen;
+$med-accent: 		darken($oldgreen, 10%);
 $dark-accent: 		$red;
 
 $dark-text: 		$navy;
@@ -27,7 +28,7 @@ $link-color:		$dark-accent;
 $link-hover: 		darken($link-color, 20%);
 
 // Components
-$body-bkgd: 		$tan;
+$body-bkgd: 		desaturate(lighten($tan, 4%), 5%);
 $body-text: 		$dark-text;
 
 $header-text:	 	$light-text;

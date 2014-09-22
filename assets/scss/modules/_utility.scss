@@ -5,12 +5,35 @@
 
 .dark-accent {
 	background-color: $dark-accent;
+	color: $light-text;
 }
 
 .med-accent {
 	background-color: $med-accent;
+	color: $light-text;
 }
 
 .dark-font {
 	background-color: $dark-text;
+}
+
+.mobile-hide {
+	display: none;
+	@media (min-width: $screen-lg) {
+		display: block;
+	}
+}
+
+.note {
+	background-color: $light-accent;
+	text-align: center;
+	padding: $sml/2;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
 }
