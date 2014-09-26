@@ -33,7 +33,7 @@ include('include/header.php'); ?>
 		
 	</aside>
 	<div class="col-sm-7 site-content">
-		<h1>Digitization is <span class="special">our craft</span>.</h1>
+		<h1>It&rsquo;s our <span class="special">craft</span>.</h1>
  	   	<p class="lead">It's not just our &lsquo;job&rsquo;. We love working with our clients, and get a perspective that connects us to them like no other work does. It’s as rewarding for us as it is for you.</p>
  
 		<h3>Revive your fading photos.</h3>

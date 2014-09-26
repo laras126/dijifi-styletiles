@@ -1472,7 +1472,7 @@ button.btn-alt {
 }
 
 body {
-  font-family: "livory", serif;
+  font-family: "calluna-sans";
   font-size: 100%;
 }
 
@@ -1538,7 +1538,8 @@ small {
 
 strong {
   font-weight: normal;
-  font-family: "Calluna Sans";
+  font-family: "calluna-sans";
+  font-weight: 700;
 }
 
 .lead {
@@ -1581,7 +1582,7 @@ label {
   margin-bottom: 0.52rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: "Calluna Sans";
+  font-family: "calluna-sans";
 }
 
 input[type="search"] {
@@ -1617,7 +1618,7 @@ input[type="search"],
 input[type="tel"] {
   color: #222334;
   border: 1px solid #eed581;
-  font-family: "Calluna Sans";
+  font-family: "calluna-sans";
   font-weight: 300;
   -moz-transition: ease-out 0.3s;
   -o-transition: ease-out 0.3s;
@@ -1655,7 +1656,7 @@ input[type="submit"],
 button {
   background: #3a958c;
   border: #2b716a 2px solid;
-  font-family: "Calluna Sans";
+  font-family: "calluna-sans";
   color: #fff;
   font-weight: 600;
   text-shadow: 1px 1px 0 #222334;
@@ -1691,7 +1692,7 @@ input[type="submit"].btn-alt,
 button.btn-alt {
   background: #D14A29;
   border: #a63b21 2px solid;
-  font-family: "Calluna Sans";
+  font-family: "calluna-sans";
   color: #fff;
   font-weight: 600;
   text-shadow: 1px 1px 0 #222334;
@@ -1754,7 +1755,7 @@ input[type="checkbox"]:focus {
   border: 0;
   overflow: hidden;
   *zoom: 1;
-  font-family: "Calluna Sans";
+  font-family: "calluna-sans";
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 1.3rem;
@@ -1790,13 +1791,13 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #f9f9f9;
   color: #222334;
 }
 
 .header {
   text-align: center;
-  background: rgba(255, 255, 255, 0.7);
+  background: #f9f9f9;
   color: #222334;
   margin-bottom: 1.3rem;
 }
@@ -1805,11 +1806,11 @@ body {
     text-align: left;
   }
 }
-.theme-Press .header {
+.theme-Pixel .header {
   margin-top: 12px;
   box-shadow: 0 -1px 0 1px #3a958c, 0 -2px 0 2px #222334, 0 -4px 0 4px #d14a29, 0 -6px 0 6px #d14a29;
 }
-.theme-Press .header .site-title {
+.theme-Pixel .header .site-title {
   border-color: #3a958c;
   border-width: 1px;
 }
@@ -1824,7 +1825,7 @@ body {
 }
 
 .site-desc {
-  font-family: "Calluna Sans";
+  font-family: "calluna-sans";
 }
 .site-desc p {
   margin-bottom: 1.04rem;
@@ -1881,7 +1882,7 @@ body {
 }
 
 .theme-Play .adj0 {
-  font-family: "Calluna Sans";
+  font-family: "calluna-sans";
   color: #D14A29;
   font-size: 3.12rem;
   text-shadow: 1px 2px 0 #eed581;
@@ -1894,7 +1895,7 @@ body {
   text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
 }
 .theme-Play .adj2 {
-  font-family: "Calluna Sans";
+  font-family: "calluna-sans";
   font-weight: 300;
   color: #eed581;
 }
@@ -1915,7 +1916,7 @@ body {
 }
 .theme-Press .adj1 {
   color: #3a958c;
-  font-family: "Calluna Sans";
+  font-family: "calluna-sans";
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -1923,7 +1924,7 @@ body {
   font-weight: bold;
 }
 .theme-Press .adj3 {
-  font-family: "Calluna Sans";
+  font-family: "calluna-sans";
   color: #D14A29;
   text-shadow: 1px 1px 2px #fff;
 }
@@ -1940,21 +1941,21 @@ body {
   font-variant: small-caps;
   text-transform: lowercase;
   letter-spacing: 3px;
-  font-family: "Calluna Sans";
+  font-family: "calluna-sans";
   font-weight: 700;
   text-shadow: 1px 1px 0 #a9c1e6;
 }
 .theme-Pixel .adj1 {
   text-transform: lowercase;
   color: #D14A29;
-  font-family: "Calluna Sans";
+  font-family: "calluna-sans";
 }
 .theme-Pixel .adj2 {
   font-style: italic;
   color: #3a958c;
 }
 .theme-Pixel .adj4 {
-  font-family: "Calluna Sans";
+  font-family: "calluna-sans";
   font-size: 1.56rem;
 }
 .theme-Pixel .adj5 {

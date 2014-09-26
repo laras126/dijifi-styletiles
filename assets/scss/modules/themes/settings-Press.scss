@@ -15,12 +15,12 @@ $link-color:		$med-accent;
 $link-hover: 		darken($link-color, 20%);
 
 // Components
-$body-bkgd: 		$white;
-// $body-bkgd: 		url(../img/girl-at-bar-trans.jpg);
+// $body-bkgd: 		url(http://subtlepatterns.com/patterns/satinweave.png);
+$body-bkgd: 		#f9f9f9;
 $body-text: 		$dark-text;
 
-$header-bkgd: 		rgba($light-text, 0.7);
-$header-text: 		$dark-text;
+$header-bkgd: 		$body-bkgd;
+$header-text: 		$body-text;
 
 // Typography
 $sans-serif: 			'calluna-sans';
@@ -29,7 +29,7 @@ $serif:             	'livory', serif;
 
 
 $heading-font: 		$serif;
-$body-font: 		$serif;
+$body-font: 		$sans-serif;
 $button-font: 		$sans-serif;
 $lead-font: 		$serif;
 

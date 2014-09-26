@@ -9,22 +9,22 @@ $med-accent: 		$iblue;
 $dark-accent: 		$red;
 
 $dark-text: 		$black;
-$light-text: 		$screenwhite;
+$light-text: 		$white;
 
 $link-color:		$dark-accent;
 $link-hover: 		darken($link-color, 20%);
 
 // Components
-$body-bkgd: 		$screenwhite;
+$body-bkgd: 		$white;
 // $body-bkgd: 		url(../img/girl-at-bar-trans.jpg);
 $body-text: 		$dark-text;
 
-$header-bkgd: 		$dark-text;
-$header-text: 		$light-text;
+$header-bkgd: 		$body-bkgd;
+$header-text: 		$body-text;
 
 // Typography
 $sans-serif: 		'calluna-sans', Helvetica, sans-serif;
-// $sans-serif-bold: 	'Futura PT Condensed';
+$sans-serif-bold: 	'Futura PT Condensed';
 $serif:             'chaparral-pro';
 // $other: 			'Domus Titling';
 

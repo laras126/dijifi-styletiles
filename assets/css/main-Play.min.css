@@ -1538,7 +1538,8 @@ small {
 
 strong {
   font-weight: normal;
-  font-family: "freight-sans-pro";
+  font-family: "ff-meta-serif-web-pro";
+  font-weight: 700;
 }
 
 .lead {
@@ -1805,11 +1806,11 @@ body {
     text-align: left;
   }
 }
-.theme-Press .header {
+.theme-Pixel .header {
   margin-top: 12px;
   box-shadow: 0 -1px 0 1px #3c7aaa, 0 -2px 0 2px #222334, 0 -4px 0 4px #d14a29, 0 -6px 0 6px #d14a29;
 }
-.theme-Press .header .site-title {
+.theme-Pixel .header .site-title {
   border-color: #3C7AAA;
   border-width: 1px;
 }

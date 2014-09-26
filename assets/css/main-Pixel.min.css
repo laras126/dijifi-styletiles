@@ -1472,7 +1472,7 @@ button.btn-alt {
 }
 
 body {
-  font-family: "Chaparral Pro";
+  font-family: "chaparral-pro";
   font-size: 100%;
 }
 
@@ -1489,7 +1489,7 @@ a:link, a:visited:link {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.3;
-  font-family: "Calluna Sans", Helvetica, sans-serif;
+  font-family: "calluna-sans", Helvetica, sans-serif;
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -1538,11 +1538,12 @@ small {
 
 strong {
   font-weight: normal;
-  font-family: "Futura PT Condensed";
+  font-family: "chaparral-pro";
+  font-weight: 700;
 }
 
 .lead {
-  font-family: "Chaparral Pro";
+  font-family: "chaparral-pro";
 }
 
 .p-lead {
@@ -1581,7 +1582,7 @@ label {
   margin-bottom: 0.52rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: "Calluna Sans", Helvetica, sans-serif;
+  font-family: "calluna-sans", Helvetica, sans-serif;
 }
 
 input[type="search"] {
@@ -1617,7 +1618,7 @@ input[type="search"],
 input[type="tel"] {
   color: #111;
   border: 1px solid #FFCC53;
-  font-family: "Calluna Sans", Helvetica, sans-serif;
+  font-family: "calluna-sans", Helvetica, sans-serif;
   font-weight: 300;
   -moz-transition: ease-out 0.3s;
   -o-transition: ease-out 0.3s;
@@ -1655,7 +1656,7 @@ input[type="submit"],
 button {
   background: #1ca2ca;
   border: #167e9d 2px solid;
-  font-family: "Calluna Sans", Helvetica, sans-serif;
+  font-family: "calluna-sans", Helvetica, sans-serif;
   color: #fff;
   font-weight: 600;
   text-shadow: 1px 1px 0 #111;
@@ -1691,7 +1692,7 @@ input[type="submit"].btn-alt,
 button.btn-alt {
   background: #e14939;
   border: #c92f1e 2px solid;
-  font-family: "Calluna Sans", Helvetica, sans-serif;
+  font-family: "calluna-sans", Helvetica, sans-serif;
   color: #fff;
   font-weight: 600;
   text-shadow: 1px 1px 0 #111;
@@ -1754,7 +1755,7 @@ input[type="checkbox"]:focus {
   border: 0;
   overflow: hidden;
   *zoom: 1;
-  font-family: "Calluna Sans", Helvetica, sans-serif;
+  font-family: "calluna-sans", Helvetica, sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 1.3rem;
@@ -1790,14 +1791,14 @@ html {
 }
 
 body {
-  background: #f8fafd;
+  background: #fff;
   color: #111;
 }
 
 .header {
   text-align: center;
-  background: #111;
-  color: #f8fafd;
+  background: #fff;
+  color: #111;
   margin-bottom: 1.3rem;
 }
 @media (min-width: 600px) {
@@ -1805,11 +1806,11 @@ body {
     text-align: left;
   }
 }
-.theme-Press .header {
+.theme-Pixel .header {
   margin-top: 12px;
   box-shadow: 0 -1px 0 1px #1ca2ca, 0 -2px 0 2px #111111, 0 -4px 0 4px #e14939, 0 -6px 0 6px #e14939;
 }
-.theme-Press .header .site-title {
+.theme-Pixel .header .site-title {
   border-color: #1ca2ca;
   border-width: 1px;
 }
@@ -1824,7 +1825,7 @@ body {
 }
 
 .site-desc {
-  font-family: "Calluna Sans", Helvetica, sans-serif;
+  font-family: "calluna-sans", Helvetica, sans-serif;
 }
 .site-desc p {
   margin-bottom: 1.04rem;
@@ -1894,12 +1895,12 @@ body {
   text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
 }
 .theme-Play .adj2 {
-  font-family: "Calluna Sans", Helvetica, sans-serif;
+  font-family: "calluna-sans", Helvetica, sans-serif;
   font-weight: 300;
   color: #FFCC53;
 }
 .theme-Play .adj3 {
-  font-family: "Calluna Sans", Helvetica, sans-serif;
+  font-family: "calluna-sans", Helvetica, sans-serif;
   font-weight: 300;
 }
 .theme-Play .adj4 {
@@ -1923,7 +1924,7 @@ body {
   font-weight: bold;
 }
 .theme-Press .adj3 {
-  font-family: "Calluna Sans", Helvetica, sans-serif;
+  font-family: "calluna-sans", Helvetica, sans-serif;
   color: #e14939;
   text-shadow: 1px 1px 2px #fff;
 }
@@ -1940,21 +1941,21 @@ body {
   font-variant: small-caps;
   text-transform: lowercase;
   letter-spacing: 3px;
-  font-family: "Calluna Sans", Helvetica, sans-serif;
+  font-family: "calluna-sans", Helvetica, sans-serif;
   font-weight: 700;
   text-shadow: 1px 1px 0 #a9c1e6;
 }
 .theme-Pixel .adj1 {
   text-transform: lowercase;
   color: #e14939;
-  font-family: "Calluna Sans", Helvetica, sans-serif;
+  font-family: "calluna-sans", Helvetica, sans-serif;
 }
 .theme-Pixel .adj2 {
   font-style: italic;
   color: #1ca2ca;
 }
 .theme-Pixel .adj4 {
-  font-family: "Calluna Sans", Helvetica, sans-serif;
+  font-family: "calluna-sans", Helvetica, sans-serif;
   font-size: 1.56rem;
 }
 .theme-Pixel .adj5 {
