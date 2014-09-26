@@ -19,7 +19,7 @@
         <?php if($theme == 'Pixel') { ?>
             <script src="//use.typekit.net/rnq5vpl.js"></script>
             <script>try{Typekit.load();}catch(e){}</script>
-        <?php } else if($theme == 'Press') { ?>
+        <?php } else if($theme == 'Press' || $theme == 'PressPlay') { ?>
             <script src="//use.typekit.net/bkb3vps.js"></script>
             <script>try{Typekit.load();}catch(e){}</script>
         <?php } else { ?>
@@ -39,10 +39,10 @@
 
         <header class="header" role="banner">
             <div class="container">
-                <div class="col-sm-5">
+                <div class="col-sm-8">
                     <h1 class="site-title">Theme <?php echo $theme ?></h1>
                 </div>
-                <div class="col-sms site-desc">
+                <div class="col-sm-4 text-right site-desc">
                     <p>DiJiFi<br>
                     <small>Website and Branding<br>
                     Version 2</small></p>

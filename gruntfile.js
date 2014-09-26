@@ -47,6 +47,7 @@ module.exports = function(grunt) {
                 'assets/css/main-Play.min.css': 'assets/scss/main-Play.scss', 
                 'assets/css/main-Press.min.css': 'assets/scss/main-Press.scss',
                 'assets/css/main-Pixel.min.css': 'assets/scss/main-Pixel.scss',
+                'assets/css/main-PressPlay.min.css': 'assets/scss/main-PressPlay.scss',
             }
           }
         },

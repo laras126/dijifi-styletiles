@@ -1,0 +1,39 @@
+// Variables for the theme Play
+
+
+// -- PLAY
+
+// Typography
+$sans-serif: 		'freight-sans-pro';		
+$sans-serif-bold: 	$sans-serif;
+// $sans-serif-italic: $brandon-italic;
+// $serif:             'Tisa Pro', serif;
+$serif: 			'livory';
+
+
+$heading-font: 		$serif;
+$body-font: 		$serif;
+$button-font: 		$sans-serif;
+$lead-font: 		$serif;
+
+// Colors
+$light-accent: 		$yellow;	
+$med-accent: 		$blue;
+$dark-accent: 		$dred;
+
+$dark-text: 		$navy;
+$light-text: 		$white;
+
+$link-color:		$dark-accent;
+$link-hover: 		darken($link-color, 20%);
+
+// Components
+$body-bkgd: 		$light-text;
+$body-text: 		$dark-text;
+
+$header-text:	 	$light-text;
+$header-bkgd:	 	$dark-text;
+
+// Utilities
+$accent-border: 	2px solid $light-accent;
+

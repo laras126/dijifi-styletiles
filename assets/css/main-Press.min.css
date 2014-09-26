@@ -1822,11 +1822,6 @@ body {
 .site-title {
   margin-top: 1.04rem;
 }
-@media (min-width: 600px) {
-  .site-title {
-    border-right: 1px solid #eed581;
-  }
-}
 
 .site-desc {
   font-family: "freight-sans-pro";
