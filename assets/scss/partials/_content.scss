@@ -22,6 +22,13 @@ body {
 	color: $header-text;
 	margin-bottom: $base;
 
+	.theme-Press & .container {
+		// margin-top: 12px;
+		border-bottom: $accent-border;
+		border-color: #eee;
+
+	}
+
 	.theme-Pixel & {
 		margin-top: 12px;
 		box-shadow:

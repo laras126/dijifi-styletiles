@@ -38,7 +38,8 @@ include('include/header.php'); ?>
  
 		<h3>Revive your fading photos.</h3>
 		<p>Give your memories a new life on the digitial devices we use everyday. We don't just preserve your photos, we improve them. By hand, we remove scratches, scuffs, and damages making your photos looking as fresh as the ones you took with your phone yesterday.</p>
-		
+		<p class="more"><a href="#">Text link...</a></p>
+
 		<h3>Customization for every client.</h3>
 		<p>Each photo, reel, and slide has its own character and quirks, and the digitization process is not one-size-fits-all. Our approach is a more complex, nuanced system of checks and tweaks, customized for every case. We treat every piece of media as our own, and we report to you directly. No guess work.</p>
 	
@@ -47,11 +48,6 @@ include('include/header.php'); ?>
 		</blockquote>
 		<p class="text-right">&dash; Jim R., <a href="http://www.yelp.com/biz/dijifi-brooklyn?hrid=CmJzuJOrbDPOGYnNOIECtQ" target="blank">Yelp review</a></p>
 
-		<h4>Subsection Title</h4>
-		<p>Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis.</p>
-
-		<div class="text-right">&dash; Lorem Ipsum</div>
-		<p class="more"><a href="#">Text link...</a></p>
 	</div>
 
 </div>

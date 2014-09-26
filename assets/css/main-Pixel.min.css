@@ -1498,7 +1498,7 @@ h1 {
   font-size: 4.16rem;
   margin-top: 2.08rem;
 }
-.theme-Pixel h1, .theme-Press h1 {
+.theme-Pixel h1 {
   font-weight: 900;
 }
 
@@ -1797,14 +1797,18 @@ body {
 
 .header {
   text-align: center;
-  background: #fff;
-  color: #111;
+  background: #111;
+  color: #fff;
   margin-bottom: 1.3rem;
 }
 @media (min-width: 600px) {
   .header {
     text-align: left;
   }
+}
+.theme-Press .header .container {
+  border-bottom: 1px solid #FFCC53;
+  border-color: #eee;
 }
 .theme-Pixel .header {
   margin-top: 12px;

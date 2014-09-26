@@ -16,20 +16,20 @@ $link-hover: 		darken($link-color, 20%);
 
 // Components
 // $body-bkgd: 		url(http://subtlepatterns.com/patterns/satinweave.png);
-$body-bkgd: 		#f9f9f9;
+$body-bkgd: 		#fefefe;
 $body-text: 		$dark-text;
 
 $header-bkgd: 		$body-bkgd;
 $header-text: 		$body-text;
 
 // Typography
-$sans-serif: 			'calluna-sans';
+$sans-serif: 			'freight-sans-pro';
 $sans-serif-bold: 		$sans-serif;
 $serif:             	'livory', serif;	
 
 
 $heading-font: 		$serif;
-$body-font: 		$sans-serif;
+$body-font: 		$serif;
 $button-font: 		$sans-serif;
 $lead-font: 		$serif;
 

@@ -19,8 +19,8 @@ $body-bkgd: 		$white;
 // $body-bkgd: 		url(../img/girl-at-bar-trans.jpg);
 $body-text: 		$dark-text;
 
-$header-bkgd: 		$body-bkgd;
-$header-text: 		$body-text;
+$header-bkgd: 		$body-text;
+$header-text: 		$body-bkgd;
 
 // Typography
 $sans-serif: 		'calluna-sans', Helvetica, sans-serif;

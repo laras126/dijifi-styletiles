@@ -35,7 +35,7 @@ h1, %h1 {
 	font-size: $h1;
 	margin-top: $h3;
 
-	.theme-Pixel &, .theme-Press & {
+	.theme-Pixel & {
 		// font-size: $h1*0.9;
 		font-weight: 900;
 	}
