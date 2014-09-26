@@ -4,12 +4,12 @@
 //-- PIXEL
 
 // Colors
-$light-accent: 		$iblue;	
-$med-accent: 		$igreen;
-$dark-accent: 		$ipink;
+$light-accent: 		$yellow;	
+$med-accent: 		$iblue;
+$dark-accent: 		$red;
 
 $dark-text: 		$black;
-$light-text: 		$white;
+$light-text: 		$screenwhite;
 
 $link-color:		$dark-accent;
 $link-hover: 		darken($link-color, 20%);
@@ -19,23 +19,19 @@ $body-bkgd: 		$screenwhite;
 // $body-bkgd: 		url(../img/girl-at-bar-trans.jpg);
 $body-text: 		$dark-text;
 
-$header-bkgd: 		$body-bkgd;
-$header-text: 		$dark-text;
+$header-bkgd: 		$dark-text;
+$header-text: 		$light-text;
 
 // Typography
-$sans-serif: 		'Proxima Nova', Helvetica, sans-serif;
-$sans-serif-bold: 	'Proxima Nova' 700;
-$serif:             'livory', serif;
-
-// $sans-serif: 		'Brandon Text Regular', Helvetica, sans-serif;
-// $sans-serif-bold: 	'Brandon Text Bold', Helvetica, sans-serif;
-// $serif:             'Tisa Pro', serif;	
-
+$sans-serif: 		'Calluna Sans', Helvetica, sans-serif;
+$sans-serif-bold: 	'Futura PT Condensed';
+$serif:             'Chaparral Pro';
+$other: 			'Domus Titling';
 
 $heading-font: 		$sans-serif;
 $body-font: 		$serif;
 $button-font: 		$sans-serif;
-$lead-font: 		$sans-serif;
+$lead-font: 		$serif;
 
 // Utilities
 $accent-border: 	1px solid $light-accent;

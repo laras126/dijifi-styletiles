@@ -34,6 +34,12 @@ h1, h2, h3, h4, h5, h6 {
 h1, %h1 {
 	font-size: $h1;
 	margin-top: $h3;
+
+	.theme-Pixel &, .theme-Press & {
+		// font-size: $h1*0.9;
+		font-weight: 900;
+	}
+
 }
 
 h2, %h2 {
@@ -78,7 +84,7 @@ strong {
 // Utility
 
 .lead {
-	font: $lead-font;
+	font-family: $lead-font;
 	@extend %h4;
 }
 
@@ -93,10 +99,14 @@ strong {
 }
 
 .special {
-	text-shadow: 3px 3px 0 $light-accent;
+	color: $med-accent;
 }
 
 blockquote {
 	font-size: $h4;
 	font-style: italic;
+	padding-left: $h2;
+	margin-left: 0;
+	background-image: url(../img/svgs/quotes-left.svg);
+	background-repeat: no-repeat;
 }

@@ -7,7 +7,7 @@
         
         <footer class="container footer">
             <div class="adjs">    
-                <?php printAdjectives($theme); ?>
+                <?php //printAdjectives($theme); ?>
             </div>
         </footer>
 

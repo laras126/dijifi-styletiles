@@ -1448,19 +1448,27 @@ button.btn-alt {
 }
 
 .light-accent {
-  background-color: #aaa;
+  background-color: #eed581;
 }
 
 .dark-accent {
-  background-color: #5c372e;
+  background-color: #D14A29;
 }
 
 .med-accent {
-  background-color: #688849;
+  background-color: #3a958c;
 }
 
 .dark-font {
-  background-color: #2b2b2b;
+  background-color: #222334;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
 }
 
 body {
@@ -1469,11 +1477,11 @@ body {
 }
 
 a, a:visited {
-  color: #688849;
+  color: #3a958c;
   text-decoration: none;
 }
 a:hover, a:focus, a:visited:hover, a:visited:focus {
-  color: #354625;
+  color: #1d4c47;
 }
 a:link, a:visited:link {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
@@ -1487,8 +1495,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3.64rem;
+  font-size: 4.16rem;
   margin-top: 2.08rem;
+}
+.theme-Pixel h1, .theme-Press h1 {
+  font-weight: 900;
 }
 
 h2 {
@@ -1527,11 +1538,11 @@ small {
 
 strong {
   font-weight: normal;
-  font-family: "Brandon Text Bold", Helvetica, sans-serif;
+  font-family: "Calluna Sans";
 }
 
 .lead {
-  font: "Brandon Text Regular", Helvetica, sans-serif;
+  font-family: "livory", serif;
 }
 
 .p-lead {
@@ -1545,12 +1556,16 @@ strong {
 }
 
 .special {
-  text-shadow: 3px 3px 0 #aaa;
+  color: #3a958c;
 }
 
 blockquote {
   font-size: 1.56rem;
   font-style: italic;
+  padding-left: 3.12rem;
+  margin-left: 0;
+  background-image: url(../img/svgs/quotes-left.svg);
+  background-repeat: no-repeat;
 }
 
 *:focus {
@@ -1566,7 +1581,7 @@ label {
   margin-bottom: 0.52rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: "Brandon Text Regular", Helvetica, sans-serif;
+  font-family: "Calluna Sans";
 }
 
 input[type="search"] {
@@ -1600,9 +1615,9 @@ input[type="email"],
 input[type="url"],
 input[type="search"],
 input[type="tel"] {
-  color: #2b2b2b;
-  border: 1px solid #aaa;
-  font-family: "Brandon Text Regular", Helvetica, sans-serif;
+  color: #222334;
+  border: 1px solid #eed581;
+  font-family: "Calluna Sans";
   font-weight: 300;
   -moz-transition: ease-out 0.3s;
   -o-transition: ease-out 0.3s;
@@ -1623,7 +1638,7 @@ input[type="email"]:focus,
 input[type="url"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus {
-  border-color: #688849;
+  border-color: #3a958c;
   background-color: #fff;
 }
 
@@ -1638,10 +1653,12 @@ input[type="checkbox"] {
 
 input[type="submit"],
 button {
-  background: #688849;
-  border: #4f6737 0.208rem solid;
-  font-family: "Brandon Text Regular", Helvetica, sans-serif;
+  background: #3a958c;
+  border: #2b716a 2px solid;
+  font-family: "Calluna Sans";
   color: #fff;
+  font-weight: 600;
+  text-shadow: 1px 1px 0 #222334;
   margin-top: 1.3rem;
   display: inline-block;
   cursor: pointer;
@@ -1650,13 +1667,13 @@ button {
 input[type="submit"]:hover, input[type="submit"]:focus,
 button:hover,
 button:focus {
-  background: #354625;
+  background: #1d4c47;
   color: #fff;
 }
 input[type="submit"]:active,
 button:active {
-  background: #4f6737;
-  border-color: #475d32;
+  background: #2b716a;
+  border-color: #27665f;
   color: #fff;
   -webkit-box-shadow: inset 0 2px 5px -3px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0 2px 5px -3px rgba(0, 0, 0, 0.5);
@@ -1665,30 +1682,32 @@ input[type="submit"][disabled], input[type="submit"]:disabled, input[type="submi
 button[disabled],
 button:disabled,
 button.button-primary-disabled {
-  color: #ccd1c7 !important;
-  background: #546d3b !important;
-  border-color: #42562e !important;
+  color: #c7d1d0 !important;
+  background: #2e7870 !important;
+  border-color: #245e58 !important;
   text-shadow: none !important;
 }
 input[type="submit"].btn-alt,
 button.btn-alt {
-  background: #5c372e;
-  border: #3a231d 0.208rem solid;
-  font-family: "Brandon Text Regular", Helvetica, sans-serif;
+  background: #D14A29;
+  border: #a63b21 2px solid;
+  font-family: "Calluna Sans";
   color: #fff;
+  font-weight: 600;
+  text-shadow: 1px 1px 0 #222334;
   margin-top: 1.3rem;
   display: inline-block;
 }
 input[type="submit"].btn-alt:hover, input[type="submit"].btn-alt:focus,
 button.btn-alt:hover,
 button.btn-alt:focus {
-  background: #180e0c;
+  background: #7c2c18;
   color: #fff;
 }
 input[type="submit"].btn-alt:active,
 button.btn-alt:active {
-  background: #3a231d;
-  border-color: #301d18;
+  background: #a63b21;
+  border-color: #9a361e;
   color: #fff;
   -webkit-box-shadow: inset 0 2px 5px -3px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0 2px 5px -3px rgba(0, 0, 0, 0.5);
@@ -1698,8 +1717,8 @@ button.btn-alt[disabled],
 button.btn-alt:disabled,
 button.btn-alt.button-primary-disabled {
   color: #d1c9c7 !important;
-  background: #412720 !important;
-  border-color: #291915 !important;
+  background: #af3e22 !important;
+  border-color: #91331c !important;
   text-shadow: none !important;
 }
 
@@ -1713,7 +1732,7 @@ select:focus,
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
-  outline: 1px solid #aaa;
+  outline: 1px solid #eed581;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -1735,7 +1754,7 @@ input[type="checkbox"]:focus {
   border: 0;
   overflow: hidden;
   *zoom: 1;
-  font-family: "Brandon Text Regular", Helvetica, sans-serif;
+  font-family: "Calluna Sans";
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 1.3rem;
@@ -1771,14 +1790,14 @@ html {
 }
 
 body {
-  background: url(http://subtlepatterns.com/patterns/satinweave.png);
-  color: #2b2b2b;
+  background: #fff;
+  color: #222334;
 }
 
 .header {
   text-align: center;
   background: rgba(255, 255, 255, 0.7);
-  color: #2b2b2b;
+  color: #222334;
   margin-bottom: 1.3rem;
 }
 @media (min-width: 600px) {
@@ -1786,18 +1805,26 @@ body {
     text-align: left;
   }
 }
+.theme-Press .header {
+  margin-top: 12px;
+  box-shadow: 0 -1px 0 1px #3a958c, 0 -2px 0 2px #222334, 0 -4px 0 4px #d14a29, 0 -6px 0 6px #d14a29;
+}
+.theme-Press .header .site-title {
+  border-color: #3a958c;
+  border-width: 1px;
+}
 
 .site-title {
   margin-top: 1.04rem;
 }
 @media (min-width: 600px) {
   .site-title {
-    border-right: 1px solid #aaa;
+    border-right: 1px solid #eed581;
   }
 }
 
 .site-desc {
-  font-family: "Brandon Text Regular", Helvetica, sans-serif;
+  font-family: "Calluna Sans";
 }
 .site-desc p {
   margin-bottom: 1.04rem;
@@ -1822,7 +1849,7 @@ body {
   border: 4px solid #aaa;
 }
 .pattern-lined div {
-  background-color: #aaa;
+  background-color: #eed581;
 }
 
 .footer {
@@ -1854,22 +1881,22 @@ body {
 }
 
 .theme-Play .adj0 {
-  font-family: "Brandon Text Bold", Helvetica, sans-serif;
-  color: #5c372e;
+  font-family: "Calluna Sans";
+  color: #D14A29;
   font-size: 3.12rem;
-  text-shadow: 1px 2px 0 #aaa;
+  text-shadow: 1px 2px 0 #eed581;
 }
 .theme-Play .adj1 {
-  background-color: #2b2b2b;
+  background-color: #222334;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
 }
 .theme-Play .adj2 {
-  font-family: "Brandon Text Regular", Helvetica, sans-serif;
+  font-family: "Calluna Sans";
   font-weight: 300;
-  color: #aaa;
+  color: #eed581;
 }
 .theme-Play .adj3 {
   font-family: "livory", serif;
@@ -1877,18 +1904,18 @@ body {
 }
 .theme-Play .adj4 {
   font-style: italic;
-  color: #688849;
+  color: #3a958c;
 }
 .theme-Play .adj5 {
   font-weight: 700;
 }
 
 .theme-Press .adj0 {
-  color: #aaa;
+  color: #eed581;
 }
 .theme-Press .adj1 {
-  color: #688849;
-  font-family: "Brandon Text Bold", Helvetica, sans-serif;
+  color: #3a958c;
+  font-family: "Calluna Sans";
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -1896,8 +1923,8 @@ body {
   font-weight: bold;
 }
 .theme-Press .adj3 {
-  font-family: "Brandon Text Regular", Helvetica, sans-serif;
-  color: #5c372e;
+  font-family: "Calluna Sans";
+  color: #D14A29;
   text-shadow: 1px 1px 2px #fff;
 }
 .theme-Press .adj4 {
@@ -1913,25 +1940,25 @@ body {
   font-variant: small-caps;
   text-transform: lowercase;
   letter-spacing: 3px;
-  font-family: "Brandon Text Regular", Helvetica, sans-serif;
+  font-family: "Calluna Sans";
   font-weight: 700;
   text-shadow: 1px 1px 0 #a9c1e6;
 }
 .theme-Pixel .adj1 {
   text-transform: lowercase;
-  color: #5c372e;
-  font-family: "Brandon Text Regular", Helvetica, sans-serif;
+  color: #D14A29;
+  font-family: "Calluna Sans";
 }
 .theme-Pixel .adj2 {
   font-style: italic;
-  color: #688849;
+  color: #3a958c;
 }
 .theme-Pixel .adj4 {
-  font-family: "Brandon Text Regular", Helvetica, sans-serif;
+  font-family: "Calluna Sans";
   font-size: 1.56rem;
 }
 .theme-Pixel .adj5 {
-  color: #aaa;
+  color: #eed581;
 }
 
 #mfPreviewBarShow, #mfPreviewBar {

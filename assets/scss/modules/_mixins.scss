@@ -25,10 +25,12 @@
 
 @mixin button( $button-color, $text-color: $white ) {
 	background: $button-color;
-	border: darken($button-color, 10%) $sml/5 solid;
+	border: darken($button-color, 10%) 2px solid;
 
 	font-family: $button-font;
 	color: $text-color;
+	font-weight: 600;
+	text-shadow: 1px 1px 0 $dark-text;
 	
 	@extend %form-base;
 	margin-top: $h5;

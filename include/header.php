@@ -16,22 +16,17 @@
 
         <script src="assets/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         
-        <script type="text/javascript" src="//use.typekit.net/yzr4enu.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    
-        <script type="text/javascript">
-            (function() {
-                var path = '//easy.myfonts.net/v2/js?sid=230539(font-family=Brandon+Text+Bold)&sid=230543(font-family=Brandon+Text+Light)&sid=230545(font-family=Brandon+Text+Medium)&sid=230546(font-family=Brandon+Text+Regular)&key=avNv9Dk5dT',
-                    protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
-                    trial = document.createElement('script');
-                trial.type = 'text/javascript';
-                trial.async = true;
-                trial.src = protocol + path;
-                var head = document.getElementsByTagName("head")[0];
-                head.appendChild(trial);
-            })();
-        </script>
-
+        <?php if($theme == 'Pixel') { ?>
+            <script src="//use.typekit.net/rnq5vpl.js"></script>
+            <script>try{Typekit.load();}catch(e){}</script>
+        <?php } else if($theme == 'Press') { ?>
+            <script src="//use.typekit.net/bkb3vps.js"></script>
+            <script>try{Typekit.load();}catch(e){}</script>
+        <?php } else { ?>
+            <script type="text/javascript" src="//use.typekit.net/yzr4enu.js"></script>
+            <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <?php }?>
+        
     </head>
 
     <body class="theme-<?php echo $theme ?>">
@@ -45,13 +40,12 @@
         <header class="header" role="banner">
             <div class="container">
                 <div class="col-sm-5">
-                    <!-- <h1 class="site-title"></h1>                 -->
                     <h1 class="site-title">Theme <?php echo $theme ?></h1>
                 </div>
                 <div class="col-sms site-desc">
-                    <p>Diji&#xFB01;<br>
+                    <p>DiJiFi<br>
                     <small>Website and Branding<br>
-                    <em>Version 1</em></small></p>
+                    Version 2</small></p>
                 </div>
                 <div class="col-sm-4">
                         <!-- <nav class="nav">

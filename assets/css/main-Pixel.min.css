@@ -1448,32 +1448,40 @@ button.btn-alt {
 }
 
 .light-accent {
-  background-color: #1ca2ca;
+  background-color: #FFCC53;
 }
 
 .dark-accent {
-  background-color: #EA3E56;
+  background-color: #e14939;
 }
 
 .med-accent {
-  background-color: #7bc657;
+  background-color: #1ca2ca;
 }
 
 .dark-font {
   background-color: #111;
 }
 
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
 body {
-  font-family: "livory", serif;
+  font-family: "Chaparral Pro";
   font-size: 100%;
 }
 
 a, a:visited {
-  color: #EA3E56;
+  color: #e14939;
   text-decoration: none;
 }
 a:hover, a:focus, a:visited:hover, a:visited:focus {
-  color: #af1329;
+  color: #9c2418;
 }
 a:link, a:visited:link {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
@@ -1481,14 +1489,17 @@ a:link, a:visited:link {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.3;
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  font-family: "Calluna Sans", Helvetica, sans-serif;
   font-weight: 700;
   margin-bottom: 0;
 }
 
 h1 {
-  font-size: 3.64rem;
+  font-size: 4.16rem;
   margin-top: 2.08rem;
+}
+.theme-Pixel h1, .theme-Press h1 {
+  font-weight: 900;
 }
 
 h2 {
@@ -1527,11 +1538,11 @@ small {
 
 strong {
   font-weight: normal;
-  font-family: "Proxima Nova" 700;
+  font-family: "Futura PT Condensed";
 }
 
 .lead {
-  font: "Proxima Nova", Helvetica, sans-serif;
+  font-family: "Chaparral Pro";
 }
 
 .p-lead {
@@ -1545,12 +1556,16 @@ strong {
 }
 
 .special {
-  text-shadow: 3px 3px 0 #1ca2ca;
+  color: #1ca2ca;
 }
 
 blockquote {
   font-size: 1.56rem;
   font-style: italic;
+  padding-left: 3.12rem;
+  margin-left: 0;
+  background-image: url(../img/svgs/quotes-left.svg);
+  background-repeat: no-repeat;
 }
 
 *:focus {
@@ -1566,7 +1581,7 @@ label {
   margin-bottom: 0.52rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  font-family: "Calluna Sans", Helvetica, sans-serif;
 }
 
 input[type="search"] {
@@ -1601,8 +1616,8 @@ input[type="url"],
 input[type="search"],
 input[type="tel"] {
   color: #111;
-  border: 1px solid #1ca2ca;
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  border: 1px solid #FFCC53;
+  font-family: "Calluna Sans", Helvetica, sans-serif;
   font-weight: 300;
   -moz-transition: ease-out 0.3s;
   -o-transition: ease-out 0.3s;
@@ -1623,7 +1638,7 @@ input[type="email"]:focus,
 input[type="url"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus {
-  border-color: #7bc657;
+  border-color: #1ca2ca;
   background-color: #fff;
 }
 
@@ -1638,10 +1653,12 @@ input[type="checkbox"] {
 
 input[type="submit"],
 button {
-  background: #7bc657;
-  border: #61af3b 0.208rem solid;
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  background: #1ca2ca;
+  border: #167e9d 2px solid;
+  font-family: "Calluna Sans", Helvetica, sans-serif;
   color: #fff;
+  font-weight: 600;
+  text-shadow: 1px 1px 0 #111;
   margin-top: 1.3rem;
   display: inline-block;
   cursor: pointer;
@@ -1650,13 +1667,13 @@ button {
 input[type="submit"]:hover, input[type="submit"]:focus,
 button:hover,
 button:focus {
-  background: #4c892e;
+  background: #105a70;
   color: #fff;
 }
 input[type="submit"]:active,
 button:active {
-  background: #61af3b;
-  border-color: #5aa337;
+  background: #167e9d;
+  border-color: #14738f;
   color: #fff;
   -webkit-box-shadow: inset 0 2px 5px -3px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0 2px 5px -3px rgba(0, 0, 0, 0.5);
@@ -1665,30 +1682,32 @@ input[type="submit"][disabled], input[type="submit"]:disabled, input[type="submi
 button[disabled],
 button:disabled,
 button.button-primary-disabled {
-  color: #cad1c7 !important;
-  background: #65b63e !important;
-  border-color: #569c35 !important;
+  color: #c7cfd1 !important;
+  background: #1785a6 !important;
+  border-color: #136c87 !important;
   text-shadow: none !important;
 }
 input[type="submit"].btn-alt,
 button.btn-alt {
-  background: #EA3E56;
-  border: #dd1834 0.208rem solid;
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  background: #e14939;
+  border: #c92f1e 2px solid;
+  font-family: "Calluna Sans", Helvetica, sans-serif;
   color: #fff;
+  font-weight: 600;
+  text-shadow: 1px 1px 0 #111;
   margin-top: 1.3rem;
   display: inline-block;
 }
 input[type="submit"].btn-alt:hover, input[type="submit"].btn-alt:focus,
 button.btn-alt:hover,
 button.btn-alt:focus {
-  background: #af1329;
+  background: #9c2418;
   color: #fff;
 }
 input[type="submit"].btn-alt:active,
 button.btn-alt:active {
-  background: #dd1834;
-  border-color: #cf1730;
+  background: #c92f1e;
+  border-color: #bb2c1c;
   color: #fff;
   -webkit-box-shadow: inset 0 2px 5px -3px rgba(0, 0, 0, 0.5);
   box-shadow: inset 0 2px 5px -3px rgba(0, 0, 0, 0.5);
@@ -1697,9 +1716,9 @@ input[type="submit"].btn-alt[disabled], input[type="submit"].btn-alt:disabled, i
 button.btn-alt[disabled],
 button.btn-alt:disabled,
 button.btn-alt.button-primary-disabled {
-  color: #d1c7c8 !important;
-  background: #e61936 !important;
-  border-color: #c6162e !important;
+  color: #d1c8c7 !important;
+  background: #d13120 !important;
+  border-color: #b2291b !important;
   text-shadow: none !important;
 }
 
@@ -1713,7 +1732,7 @@ select:focus,
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
-  outline: 1px solid #1ca2ca;
+  outline: 1px solid #FFCC53;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -1735,7 +1754,7 @@ input[type="checkbox"]:focus {
   border: 0;
   overflow: hidden;
   *zoom: 1;
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  font-family: "Calluna Sans", Helvetica, sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 1.3rem;
@@ -1777,8 +1796,8 @@ body {
 
 .header {
   text-align: center;
-  background: #f8fafd;
-  color: #111;
+  background: #111;
+  color: #f8fafd;
   margin-bottom: 1.3rem;
 }
 @media (min-width: 600px) {
@@ -1786,18 +1805,26 @@ body {
     text-align: left;
   }
 }
+.theme-Press .header {
+  margin-top: 12px;
+  box-shadow: 0 -1px 0 1px #1ca2ca, 0 -2px 0 2px #111111, 0 -4px 0 4px #e14939, 0 -6px 0 6px #e14939;
+}
+.theme-Press .header .site-title {
+  border-color: #1ca2ca;
+  border-width: 1px;
+}
 
 .site-title {
   margin-top: 1.04rem;
 }
 @media (min-width: 600px) {
   .site-title {
-    border-right: 1px solid #1ca2ca;
+    border-right: 1px solid #FFCC53;
   }
 }
 
 .site-desc {
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  font-family: "Calluna Sans", Helvetica, sans-serif;
 }
 .site-desc p {
   margin-bottom: 1.04rem;
@@ -1822,7 +1849,7 @@ body {
   border: 4px solid #aaa;
 }
 .pattern-lined div {
-  background-color: #1ca2ca;
+  background-color: #FFCC53;
 }
 
 .footer {
@@ -1854,10 +1881,10 @@ body {
 }
 
 .theme-Play .adj0 {
-  font-family: "Proxima Nova" 700;
-  color: #EA3E56;
+  font-family: "Futura PT Condensed";
+  color: #e14939;
   font-size: 3.12rem;
-  text-shadow: 1px 2px 0 #1ca2ca;
+  text-shadow: 1px 2px 0 #FFCC53;
 }
 .theme-Play .adj1 {
   background-color: #111;
@@ -1867,28 +1894,28 @@ body {
   text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
 }
 .theme-Play .adj2 {
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  font-family: "Calluna Sans", Helvetica, sans-serif;
   font-weight: 300;
-  color: #1ca2ca;
+  color: #FFCC53;
 }
 .theme-Play .adj3 {
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  font-family: "Calluna Sans", Helvetica, sans-serif;
   font-weight: 300;
 }
 .theme-Play .adj4 {
   font-style: italic;
-  color: #7bc657;
+  color: #1ca2ca;
 }
 .theme-Play .adj5 {
   font-weight: 700;
 }
 
 .theme-Press .adj0 {
-  color: #1ca2ca;
+  color: #FFCC53;
 }
 .theme-Press .adj1 {
-  color: #7bc657;
-  font-family: "Proxima Nova" 700;
+  color: #1ca2ca;
+  font-family: "Futura PT Condensed";
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -1896,8 +1923,8 @@ body {
   font-weight: bold;
 }
 .theme-Press .adj3 {
-  font-family: "Proxima Nova", Helvetica, sans-serif;
-  color: #EA3E56;
+  font-family: "Calluna Sans", Helvetica, sans-serif;
+  color: #e14939;
   text-shadow: 1px 1px 2px #fff;
 }
 .theme-Press .adj4 {
@@ -1913,25 +1940,25 @@ body {
   font-variant: small-caps;
   text-transform: lowercase;
   letter-spacing: 3px;
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  font-family: "Calluna Sans", Helvetica, sans-serif;
   font-weight: 700;
   text-shadow: 1px 1px 0 #a9c1e6;
 }
 .theme-Pixel .adj1 {
   text-transform: lowercase;
-  color: #EA3E56;
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  color: #e14939;
+  font-family: "Calluna Sans", Helvetica, sans-serif;
 }
 .theme-Pixel .adj2 {
   font-style: italic;
-  color: #7bc657;
+  color: #1ca2ca;
 }
 .theme-Pixel .adj4 {
-  font-family: "Proxima Nova", Helvetica, sans-serif;
+  font-family: "Calluna Sans", Helvetica, sans-serif;
   font-size: 1.56rem;
 }
 .theme-Pixel .adj5 {
-  color: #1ca2ca;
+  color: #FFCC53;
 }
 
 #mfPreviewBarShow, #mfPreviewBar {

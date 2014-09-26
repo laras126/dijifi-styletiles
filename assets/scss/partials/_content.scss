@@ -8,6 +8,11 @@ body {
 }	
 
 
+// ----
+// ---- Style Components
+// ----
+
+
 .header {
 	text-align: center;
 	@media (min-width: $screen-md) {
@@ -16,6 +21,20 @@ body {
 	background: $header-bkgd;
 	color: $header-text;
 	margin-bottom: $base;
+
+	.theme-Press & {
+		margin-top: 12px;
+		box-shadow:
+			0 -1px 0 1px rgba($med-accent, 1),
+			0 -2px 0 2px rgba($body-text, 1),
+			0 -4px 0 4px rgba($dark-accent, 1),
+			0 -6px 0 6px rgba($dark-accent, 1),;
+
+			.site-title {
+				border-color: $med-accent;
+				border-width: 1px;
+			}
+	}
 }
 
 	.site-title {
@@ -23,6 +42,11 @@ body {
 		// text-shadow: 1px 1px 1px $dark-text;
 		@media (min-width: $screen-md) {
 			border-right: $accent-border; 
+		}
+
+		.theme-Pixel & {
+			// text-shadow: 1px 1px 0 $dark-text,
+			// 			 2px 2px 0 rgba($dark-text, 0.8);
 		}
 	}
 
