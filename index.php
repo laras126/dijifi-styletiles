@@ -37,7 +37,7 @@ include('include/header.php'); ?>
  	   	<p class="lead">It's not just our &lsquo;job&rsquo;. We love working with our clients, and get a perspective that connects us to them like no other work does. It’s as rewarding for us as it is for you.</p>
  
 		<h3>Revive your fading photos.</h3>
-		<p>Give your memories a new life on the digital devices we use everyday. We don't just preserve your photos, we improve them. By hand, we remove scratches, scuffs, and damages to makes your photos look as fresh as the ones you took with your phone yesterday.</p>
+		<p>Give your memories a new life on the digital devices we use everyday. We don't just preserve your photos, we improve them. By hand, we remove scratches, scuffs, and damages to make your photos look as fresh as the ones you took with your phone yesterday.</p>
 		<p class="more"><a href="#">Example link...</a></p>
 
 		<h3>Customization for every client.</h3>
