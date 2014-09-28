@@ -1472,7 +1472,7 @@ button.btn-alt {
 }
 
 body {
-  font-family: "ff-meta-serif-web-pro";
+  font-family: "livory";
   font-size: 100%;
 }
 
@@ -1538,12 +1538,12 @@ small {
 
 strong {
   font-weight: normal;
-  font-family: "ff-meta-serif-web-pro";
+  font-family: "livory";
   font-weight: 700;
 }
 
 .lead {
-  font-family: "ff-meta-serif-web-pro";
+  font-family: "livory";
 }
 
 .p-lead {
