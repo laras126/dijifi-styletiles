@@ -19,9 +19,12 @@
         <?php if($theme == 'Pixel') { ?>
             <script src="//use.typekit.net/rnq5vpl.js"></script>
             <script>try{Typekit.load();}catch(e){}</script>
-        <?php } else { ?>
+        <?php } else if($theme == 'Press' || $theme == 'PressPlay') { ?>
             <script src="//use.typekit.net/bkb3vps.js"></script>
             <script>try{Typekit.load();}catch(e){}</script>
+        <?php } else { ?>
+            <script type="text/javascript" src="//use.typekit.net/yzr4enu.js"></script>
+            <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
         <?php }?>
         
     </head>
