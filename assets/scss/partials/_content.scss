@@ -75,7 +75,7 @@ img {
 		}
 
 		&__content {
-			background-color: rgba($body-bkgd, 0.8);
+			background-image: url($body-bkgd);
 			padding: $h3 $h2;
 		}
 	}
@@ -101,6 +101,8 @@ img {
 .main {
 	padding-top: $h1*1.5;
 }
+
+
 
 // ----
 // ---- Style Components
