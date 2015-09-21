@@ -22,7 +22,8 @@
         <?php } else if($theme == 'Press' || $theme == 'PressPlay') { ?>
             <script src="//use.typekit.net/bkb3vps.js"></script>
             <script>try{Typekit.load();}catch(e){}</script>
-        <?php } else { ?>
+        <?php } else {
+            ?>
             <script type="text/javascript" src="//use.typekit.net/yzr4enu.js"></script>
             <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
         <?php }?>
@@ -30,13 +31,7 @@
     </head>
 
     <body class="theme-<?php echo $theme ?>">
-        <!--[if lt IE 9]>
-            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
-
-        <?php //include_once("assets/img/svgs/arrow-down.svg"); ?>
-
-
+        
         <header class="header" role="banner">
             <div class="container">
                 <div class="col-sm-8">
@@ -48,12 +43,6 @@
                     Version 2</small></p>
                 </div>
                 <div class="col-sm-4">
-                        <!-- <nav class="nav">
-                            <ul>
-                                <li>Link</li>
-                                <li>Link</li>
-                            </ul>
-                        </nav> -->
                 </div>
             </div>
         </header> <!-- /.header -->

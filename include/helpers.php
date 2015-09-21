@@ -24,7 +24,6 @@ function printAdjectives($theme) {
 	    $adj = array('Digital', 'Contemporary', 'Connected', 'Modest', 'Millenial', 'Approachable');
 	}
 
-
 	for ($i=0; $i<=5; $i++) { ?>
 	    <div class="adj adj<?php echo $i ?>"><?php echo $adj[$i] ?></div>	
 	<?php }
