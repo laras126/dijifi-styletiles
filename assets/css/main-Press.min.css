@@ -1474,6 +1474,7 @@ button.btn-alt {
 body {
   font-family: "livory", serif;
   font-size: 100%;
+  line-height: 1.4;
 }
 
 a, a:visited {
